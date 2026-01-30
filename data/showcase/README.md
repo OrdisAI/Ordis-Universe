@@ -14,6 +14,7 @@ tags:
 pretty_name: "Ordis CausalReasoning 92K Verified"
 size_categories:
 - 10K<n<100K
+viewer: false
 ---
 
 # Ordis CausalReasoning 92K Verified
