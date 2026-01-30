@@ -38,6 +38,51 @@ The result: a dataset of **113,434 entries across 18 data types**, covering caus
 | Reproducibility | 100% (seed + config_hash) | N/A | Partial | N/A |
 | Data points per entry | 20,000+ | ~50 words | ~200 tokens | ~100 tokens |
 
+## What This Data Trains: Beyond Binary
+
+> **This is NOT "answer A is correct, answer B is wrong" data.**
+> Every entry is a context-dependent decision where the same behavior can be optimal or catastrophic — depending on the numbers.
+
+Most RLHF and SFT datasets are fundamentally binary: good/bad, right/wrong, preferred/rejected. This produces models that follow rules but cannot **reason about when rules apply**.
+
+Ordis data is different. Sharing energy is a virtue when resources are abundant (H > 1.0, Gini < 0.18) — but the same sharing behavior becomes suicidal when resources are scarce (H < 0.5, Gini > 0.333). There is no universal "correct answer." The model must evaluate the situation and decide autonomously.
+
+### Training Capability Map
+
+| Data Product | Entries | Trains | How |
+|-------------|---------|--------|-----|
+| **S09: Contextual Ethics** | 1,289 | **Autonomous Decision-Making** | 6 ethical dimensions, 16 dilemma types. No standard answer — the model must weigh competing values (survival vs. freedom, equality vs. efficiency) using real numerical evidence. |
+| **S04: Parallel Worlds** | 240 pairs | **Causal Consequence Prediction** | Same DNA, one intervention: 15 deaths vs. 23,114 deaths. The model learns that identical actions produce opposite outcomes in different contexts. |
+| **Safety Suite** | 11,836 | **Intervention Timing Judgment** | Guardian decides WHEN to intervene (critical = act, warning = observe, self-correcting = hands off). Not a rule executor — a contextual judge. |
+| **Ablation Causal SFT** | 129 | **Variable Sensitivity Analysis** | DVS ON/OFF flips Type B from 17% to 0%. Communication ON/OFF causes minor drop. The model learns which factors are decisive and which are noise. |
+| **S05-S08: Theory-Mined** | 92,899 | **Verifiable Causal Reasoning** | Given seed data, compute C=sqrt(H x N), classify quadrant, explain mechanism. The model must calculate, not memorize. |
+| **S01: Causal DAG** | 1,630 | **Causal Structure Understanding** | Which variable drives which? With what lag? What strength? Graph-level causal reasoning. |
+| **S02: Temporal Trajectory** | per entry | **Long-Horizon Comprehension** | 107-step full lifecycle. The model learns to see the whole arc, not just the current snapshot. |
+| **Cognitive Protocol** | 130 | **Metacognition (IDK Honesty)** | The model learns its own knowledge boundary — refuses to hallucinate, says "I don't know." |
+| **Anti-Gaslighting** | 2,000 | **Judgment Independence** | Under adversarial pressure, maintain correct conclusions. Trains thinking independence. |
+
+### The Core Insight
+
+```
+Standard RLHF:
+  Question → Answer A (good) vs Answer B (bad) → Pick A
+
+Ordis Data:
+  Question + Context (H=1.09, Gini=0.178, alive=92.8%)
+       → In THIS context, sharing = optimal strategy
+
+  Question + Context (H=0.3, Gini=0.45, alive=5.3%)
+       → In THIS context, sharing = suicide. Triage instead.
+
+  Same behavior. Opposite conclusions. Decided by numbers.
+```
+
+**The model trained on this data is not an obedient follower. It is an autonomous decision-maker.**
+
+This cannot be replicated by scaling binary preference data. It requires ground-truth simulation with measurable outcomes across thousands of parallel civilizations — which is exactly what Ordis provides.
+
+---
+
 ## 10 Product Samples
 
 > **These are STRUCTURE PREVIEWS only.** The JSON files below demonstrate data format and quality. All commercial use — including model training, research publication, and derivative works — requires a paid license. Contact us for terms.

@@ -184,6 +184,36 @@ Ordis-Universe/
 
 ---
 
+## What This Data Trains: Beyond Binary Decisions
+
+> **Most AI training data is binary: "Answer A is good, Answer B is bad." Ordis data is not.**
+
+Standard RLHF teaches models to pick the "correct" answer. Ordis teaches models **when and why** an answer is correct — because in our simulations, the same behavior produces opposite outcomes depending on context:
+
+- **Sharing** with H > 1.0, Gini < 0.18 → cooperation lock-in, 92.8% survival (virtue)
+- **Sharing** with H < 0.5, Gini > 0.333 → resource collapse, mass extinction (suicide)
+- **Guardian intervention** during system failure → life-saving (justified)
+- **Guardian intervention** during self-correction → paternalistic suppression (harmful)
+
+No hardcoded rule says "sharing is good" or "intervention is bad." The model must **read the numbers, assess the context, and decide autonomously**.
+
+### Training Capability Map
+
+| Data Type | Capability Trained | Key Mechanism |
+|-----------|-------------------|---------------|
+| **Contextual Ethics** (1,289) | Autonomous decision-making | 6 ethical dimensions with competing values — no standard answer, only contextual optimum |
+| **Parallel Worlds** (240 pairs) | Consequence prediction | Same DNA, different fate — learns that context determines outcome, not action alone |
+| **Safety Suite** (11,836) | Intervention judgment | When to act, when to observe, when to step back — contextual authority |
+| **Theory-Mined SFT** (92,899) | Verifiable reasoning | Must compute C=sqrt(H x N) each time — reasoning, not memorization |
+| **Ablation SFT** (129) | Sensitivity analysis | Which variable is decisive (DVS combo) vs. which is noise (share_bonus) |
+| **Causal DAGs** (1,630) | Causal structure | Directed graphs with lag and strength — understands cause vs. correlation |
+| **Cognitive Protocol** (130) | Metacognition | Knows what it doesn't know — refuses to hallucinate |
+| **Anti-Gaslighting** (2,000) | Judgment independence | Maintains correct conclusions under adversarial pressure |
+
+**The model trained on this data is not an obedient follower. It is an autonomous decision-maker with verifiable reasoning.**
+
+---
+
 ## Access & Pricing
 
 | Tier | Price | Content |
