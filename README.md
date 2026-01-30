@@ -227,6 +227,10 @@ No hardcoded rule says "sharing is good" or "intervention is bad." The model mus
 
 Prices are introductory and subject to increase. Early buyers lock in current rates.
 
+### Disclaimer
+
+**Purchasing this data does not guarantee training success.** Final model performance depends on your choice of base model, fine-tuning methodology, hyperparameters, data preprocessing, domain mapping, and integration with your existing training pipeline. The capability claims in this document are based on our reference implementations using Qwen2.5-1.5B and Qwen2.5-7B as base models with LoRA fine-tuning. Results on other architectures, scales, or training setups may vary. We provide the data and structure previews — the engineering is yours.
+
 ### Contact
 
 - GitHub Issues: [OrdisAI/Ordis-Universe](https://github.com/OrdisAI/Ordis-Universe/issues)

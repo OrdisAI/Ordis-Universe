@@ -163,6 +163,10 @@ These are NOT programmed behaviors. No code says "create currency" or "form olig
 - No privacy risk, no copyright dispute
 - Cannot be synthesized without the Ordis engine (proprietary)
 
+### Disclaimer
+
+**Purchasing this data does not guarantee training success.** Final model performance depends on your choice of base model, fine-tuning methodology, hyperparameters, data preprocessing, domain mapping, and integration with your existing training pipeline. The capability claims in this document are based on our reference implementations using Qwen2.5-1.5B and Qwen2.5-7B as base models with LoRA fine-tuning. Results on other architectures, scales, or training setups may vary. We provide the data and structure previews — the engineering is yours.
+
 ## Verification
 
 Every data point is deterministically reproducible. Given the same seed + config_hash, you will get bit-identical results. We provide:
