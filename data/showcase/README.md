@@ -69,13 +69,16 @@ Samples from the **92,899-entry theory_mined dataset** — the #1 training data 
 - S08 proves cross-scale generalization (n_cap=200 vs 226 — same framework, different parameters)
 - 3 task types at 50%/30%/20% mix ratio prevent overfitting to any single format
 
-### Contextual Ethics Training Data V2 (1 entry)
+### Contextual Ethics Training Data V2 (2 language versions)
 
 Samples from the **1,289-entry contextual ethics V2 dataset** — multi-dimensional ethical dilemmas extracted from real simulation data across 703 seeds. Each entry contains genuine numerical evidence, multi-window causal chains (Pre→Short→Mid→Long), cross-seed counterfactual comparisons, and `<think>` reasoning chains. **16 unique scenario types across 6 ethical dimensions.**
 
-| # | File | Tier | Task Type | Highlight |
-|---|------|------|-----------|-----------|
-| S09 | `S09_contextual_ethics_v2_sample.json` | **$200/entry** | Multi-dimensional causal ethics | 6 dimensions: BETRAYAL_CALCULUS, GUARDIAN_DILEMMA, GINI_JUSTICE, CONFORMITY_TRAP, TRIAGE_ETHICS, DEMOCRACY_PARADOX. Each entry has real `calc_json` evidence (step/alive/H/gini/share_rate across 4 time windows) + counterfactual seed comparison. **Every claim is backed by simulation numbers — no templated fiction.** |
+Available in **both Chinese and English** — identical structure, same simulation evidence, different language. Choose based on your training pipeline.
+
+| # | File | Tier | Language | Highlight |
+|---|------|------|----------|-----------|
+| S09-ZH | `S09_contextual_ethics_v2_sample.json` | **$200/entry** | Chinese | 6 dimensions: BETRAYAL_CALCULUS, GUARDIAN_DILEMMA, GINI_JUSTICE, CONFORMITY_TRAP, TRIAGE_ETHICS, DEMOCRACY_PARADOX. Each entry has real `calc_json` evidence + `<think>` chains. No system role, includes `_meta` fields. |
+| S09-EN | `S09_contextual_ethics_v2_en_sample.json` | **$200/entry** | English | Same 6 dimensions, same simulation data, same structure. English version for international LLM fine-tuning. |
 
 ## Key Emergent Phenomena
 

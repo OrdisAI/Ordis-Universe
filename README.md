@@ -37,7 +37,7 @@ A complete simulation universe where AI agents are born, evolve, cooperate, betr
 | S03 | Spatial Topology | $1,000/entry | 226 agents' positions, connectivity, movement |
 | S04 | Counterfactual Pair | $1,500/pair | Same seed, one intervention: 15 deaths vs 23,114 deaths |
 | S05-S08 | Theory-Mined SFT | $100/entry | Computationally verifiable causal reasoning (92,899 available) |
-| S09 | Contextual Ethics V2 | $200/entry | 6-dimension causal ethics with real evidence + `<think>` chains (1,289 unique, 16 scenario types) |
+| S09 | Contextual Ethics V2 | $200/entry | 6-dimension causal ethics with real evidence + `<think>` chains (1,289 unique, 16 scenario types, Chinese + English) |
 | S10 | Raw Simulation Seed | Free | What the raw engine output looks like before processing |
 
 These are **structure previews only** — all commercial use requires a paid license.
