@@ -69,11 +69,13 @@ Samples from the **92,899-entry theory_mined dataset** — the #1 training data 
 - S08 proves cross-scale generalization (n_cap=200 vs 226 — same framework, different parameters)
 - 3 task types at 50%/30%/20% mix ratio prevent overfitting to any single format
 
-### SFT Pipeline Demo (1 entry)
+### Contextual Ethics Training Data (1 entry)
 
-| # | File | Tier | Format | Description |
-|---|------|------|--------|-------------|
-| S09 | `S09_contextual_ethics_SFT_thinker_v2.json` | **$100/entry** | Instruction + Think | `{"instruction": ..., "input": ..., "output": "<think>...</think>\n..."}` with evidence_numbers. Demonstrates our data processing pipeline: Raw simulation → SFT with `<think>` reasoning chains. |
+Samples from the **4,890-entry contextual ethics dataset** — situation-dependent moral reasoning derived from simulation ground truth. Teaches models that **context determines ethics**, not rigid rules.
+
+| # | File | Tier | Task Type | Highlight |
+|---|------|------|-----------|-----------|
+| S09 | `S09_contextual_ethics_SFT_thinker_v2.json` | **$200/entry** | Contextual ethical reasoning | 3 dilemma types (SHARING_ETHICS, STEALING_ETHICS, COOPERATION_VS_COMPETITION). Each entry presents identical actions under different contexts → opposite moral verdicts. Includes `<think>` reasoning chains with simulation evidence. **Teaches models situation-dependent judgment, not rule-following.** |
 
 ## Key Emergent Phenomena
 
@@ -106,6 +108,7 @@ These are NOT programmed behaviors. No code says "create currency" or "form olig
 | **Tier 2: Parallel Worlds** | **$1,500/pair** | Same-seed counterfactual pairs | Requires two independent simulation runs |
 | **Tier 3: Spatial Topology** | **$1,000/entry** | Agent positions + movement + connectivity | Independent spatial dimension |
 | **Tier 4: Causal SFT** | **$100/entry** | Structured causal reasoning training data | 92,899 entries available, directly usable for LLM fine-tuning |
+| **Tier 5: Contextual Ethics** | **$200/entry** | Situation-dependent moral reasoning SFT data | 4,890 entries. 3 dilemma types with opposite verdicts under different contexts |
 
 - Prices are introductory and subject to increase. Early buyers lock in current rates.
 - 100% reproducible (RNG isolation + config_hash)
