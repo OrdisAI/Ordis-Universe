@@ -6,7 +6,7 @@
 
 **8,309 simulation runs | 113,434 dataset entries | 1,630 unique civilizations | 1.2B+ structured data points**
 
-[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/sugiken/Ordis-92K-Advanced-Causal)
+[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/sugiken/Ordis-CausalReasoning-92K-Verified)
 [![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
 [![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V345-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V345)
 [![Paper](https://img.shields.io/badge/Zenodo-Paper%20III-blue)](https://zenodo.org/records/18222486)
@@ -28,7 +28,7 @@ A complete simulation universe where AI agents are born, evolve, cooperate, betr
 
 **10 commercial data samples** are available for inspection on HuggingFace:
 
-[![Browse Samples](https://img.shields.io/badge/HuggingFace-Browse%2010%20Samples-yellow)](https://huggingface.co/datasets/sugiken/Ordis-92K-Advanced-Causal)
+[![Browse Samples](https://img.shields.io/badge/HuggingFace-Browse%2010%20Samples-yellow)](https://huggingface.co/datasets/sugiken/Ordis-CausalReasoning-92K-Verified)
 
 | # | Sample | Price | What It Shows |
 |---|--------|-------|---------------|
@@ -42,7 +42,7 @@ A complete simulation universe where AI agents are born, evolve, cooperate, betr
 
 These are **structure previews only** — all commercial use requires a paid license.
 
-**[Browse all samples on HuggingFace](https://huggingface.co/datasets/sugiken/Ordis-92K-Advanced-Causal)** | **[Detailed pricing & comparison](./data/showcase/README.md)**
+**[Browse all samples on HuggingFace](https://huggingface.co/datasets/sugiken/Ordis-CausalReasoning-92K-Verified)** | **[Detailed pricing & comparison](./data/showcase/README.md)**
 
 ---
 
