@@ -4,12 +4,13 @@
 
 <div align="center">
 
-**8,309 simulation runs | 92,899 causal pairs | 11,836 safety records | 1.2B+ structured data points**
+**8,309 simulation runs | 113,434 dataset entries | 1,630 unique civilizations | 1.2B+ structured data points**
 
+[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/sugiken/Ordis-Causal-Universe)
 [![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
 [![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V345-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V345)
 [![Paper](https://img.shields.io/badge/Zenodo-Paper%20III-blue)](https://zenodo.org/records/18222486)
-[![License](https://img.shields.io/badge/License-Research-green)](#license)
+[![License](https://img.shields.io/badge/License-Commercial-red)](#license)
 
 </div>
 
@@ -23,28 +24,50 @@ A complete simulation universe where AI agents are born, evolve, cooperate, betr
 
 ---
 
-## What We Have
+## Product Showcase
 
-### Data (1.2B+ structured data points)
+**10 commercial data samples** are available for inspection on HuggingFace:
+
+[![Browse Samples](https://img.shields.io/badge/HuggingFace-Browse%2010%20Samples-yellow)](https://huggingface.co/datasets/sugiken/Ordis-Causal-Universe)
+
+| # | Sample | Price | What It Shows |
+|---|--------|-------|---------------|
+| S01 | Causal DAG | $100/entry | Dynamic causal graph with lagged correlations |
+| S02 | Temporal Trajectory | $5,000/entry | 107-step full timeline, source data for all downstream products |
+| S03 | Spatial Topology | $1,000/entry | 226 agents' positions, connectivity, movement |
+| S04 | Counterfactual Pair | $1,500/pair | Same seed, one intervention: 15 deaths vs 23,114 deaths |
+| S05-S08 | Theory-Mined SFT | $100/entry | Computationally verifiable causal reasoning (92,899 available) |
+| S09 | SFT Pipeline Demo | $100/entry | Raw simulation to `<think>` reasoning chain |
+| S10 | Raw Simulation Seed | Free | What the raw engine output looks like before processing |
+
+These are **structure previews only** — all commercial use requires a paid license.
+
+**[Browse all samples on HuggingFace](https://huggingface.co/datasets/sugiken/Ordis-Causal-Universe)** | **[Detailed pricing & comparison](./data/showcase/README.md)**
+
+---
+
+## Full Dataset
 
 | Dataset | Scale | What It Contains |
 |---------|-------|-----------------|
-| Core Simulation | 8,309 runs × 63 features | Behavioral, genetic, topological, political, economic time series |
+| Core Simulation | 8,309 runs x 63 features | Behavioral, genetic, topological, political, economic time series |
 | Causal Pairs | 92,899 counterfactual pairs | Same seed, different treatment, measured causal effects |
 | Currency Emergence | 1,077 runs | Agents spontaneously invented currency (ratio_sg > 1) |
-| Safety Suite | 11,836 records | Crisis detection → Intervention → Counterfactual proof |
-| Ablation Experiments | 120 seeds | Counter-intuitive findings (incentives are HARMFUL) |
-| Type B (Ideal State) | 66 seeds | High diversity + Low inequality + 92.8% survival |
+| Safety Suite | 11,836 records | Crisis detection -> Intervention -> Counterfactual proof |
+| Ablation Experiments | 463 seeds (A1-A8) | DVS combo is the necessary and sufficient driver of cooperation lock-in |
+| Type B (Ideal State) | 67 seeds | High diversity + Low inequality + 92.8% survival |
 
-Each run contains 5,000 timesteps × 100+ features = **500,000+ data points per run**.
+Each run contains 5,000 timesteps x 100+ features = **500,000+ data points per run**.
 
-**[Full Data Inventory →](./DATA_INVENTORY.md)**
+**[Full Data Inventory](./DATA_INVENTORY.md)**
 
-### Models: Ordis Family
+---
 
-#### Ordis-7B-V1 (Flagship)
+## Models: Ordis Family
 
-A 7B model fine-tuned with only 487 core theory samples, demonstrating capabilities typically requiring 100B+ parameters:
+### Ordis-7B-V1 (Flagship)
+
+Fine-tuned with only 487 core theory samples. 100% OOD generalization.
 
 | Capability | Result | How |
 |-----------|--------|-----|
@@ -55,9 +78,9 @@ A 7B model fine-tuned with only 487 core theory samples, demonstrating capabilit
 
 Download: [sugiken/Ordis-7B-V1](https://huggingface.co/sugiken/Ordis-7B-V1) (LoRA adapter, 646 MB)
 
-#### Ordis-1.5B-V345 (Lightweight) 🆕
+### Ordis-1.5B-V345 (Lightweight)
 
-World's First **Truly Autonomous Thinking** Model — not a fake CoT display, real autonomous decision making:
+Autonomous thinking model — the `<think>` tag is an observation window, not a mode switch:
 
 | Capability | Result | Note |
 |-----------|--------|------|
@@ -67,21 +90,9 @@ World's First **Truly Autonomous Thinking** Model — not a fake CoT display, re
 | Anti-False-Memory | 5/5 | Cannot be tricked into admitting false memories |
 | Overall Pass Rate | 67.2% (39/58) | 16-category human evaluation |
 
-**Key Innovation**: The `<think>` tag is NOT a mode switch — it's an observation window. The model autonomously decides when to think deeply, answer directly, or refuse.
-
 Download: [sugiken/Ordis-1.5B-V345](https://huggingface.co/sugiken/Ordis-1.5B-V345) (LoRA adapter, ~100 MB)
 
 **No prompt engineering. Just structured causal data.**
-
-### Verified Laws (from this data)
-
-| Law | Formula | Validation |
-|-----|---------|-----------|
-| Dilution Effect | H = N_cap / N | 720 runs, CV<5% |
-| Capacity Conservation | C = sqrt(H×N) = sqrt(N_cap) | R²>0.999 |
-| Gini Critical Line | G > 0.333 → system death | 704 seeds |
-| Closed-Loop Safety | F >> M ≈ R | effect size = -49 deaths |
-| Linear Coupling | V = 2.126 × N_cap | 136 seeds, CV=2.83% |
 
 ---
 
@@ -94,18 +105,29 @@ During a 720-run experiment, 9.5% of civilizations spontaneously evolved "Type B
 - **92.8% survival rate**
 - Energy circulates faster than it's gathered (ratio_sg > 1.6)
 
-This is pure bottom-up emergence of currency-like circulation — Fisher equation (MV=PQ) behavior with zero economic code.
+Pure bottom-up emergence of currency-like circulation — Fisher equation (MV=PQ) behavior with zero economic code.
 
-**[Full Report & Data →](./data/emergence_currency_discovery/)**
-
-### Ablation Proof: Incentives Are Harmful
+### Ablation Proof (463 seeds, 8 experiments)
 
 | Experiment | Variable | Finding |
 |-----------|----------|---------|
-| A1: Remove sharing bonus | share_bonus = 0 | Type B rate DOUBLES (17% → 40%) |
-| A2: Remove sharing cost | share_cost = 0 | Deaths INCREASE 83% |
+| **A3: Disable DVS combo** | emergent_combo = OFF | **Type B = 0%** (60/60 Utopia). DVS combo is the necessary condition. |
+| **A4: Disable messaging** | communication = OFF | Type B drops 17% -> 10%. Two propagation channels: broadcast + local imitation. |
+| A5-A8: Parameter sweep | share_bonus, share_cost, dnd | No significant effect on Type B rate (~17% across all). |
 
-Both results are counter-intuitive and challenge conventional economic assumptions.
+DVS combo discovery at ~step 100 triggers irreversible cooperation lock-in: share_rate jumps from 0.95% to 86.6% in <50 ticks.
+
+---
+
+## Verified Laws
+
+| Law | Formula | Validation |
+|-----|---------|-----------|
+| Dilution Effect | H = N_cap / N | 720 runs, CV<5% |
+| Capacity Conservation | C = sqrt(H x N) = sqrt(N_cap) | R^2 > 0.999 |
+| Gini Critical Line | G > 0.333 -> system death | 704 seeds |
+| Closed-Loop Safety | F >> M ~ R | effect size = -49 deaths |
+| Linear Coupling | V = 2.126 x N_cap | 136 seeds, CV=2.83% |
 
 ---
 
@@ -133,13 +155,17 @@ Both results are counter-intuitive and challenge conventional economic assumptio
 
 ```
 Ordis-Universe/
-├── DATA_INVENTORY.md          # Complete data asset inventory
-├── PUBLICATIONS.md            # Full publication list
+├── README.md
+├── DATA_INVENTORY.md              # Complete data asset inventory
+├── PUBLICATIONS.md                # Full publication list
+├── FORMULAS.md                    # Formula compendium
 ├── data/
-│   └── emergence_currency_discovery/  # Currency emergence (704 seeds, sample data)
-├── guardian/                   # Guardian V7 controller (pseudocode + source)
-└── model/
-    └── ordis_7b_v1/           # Model card, demos, capability analysis
+│   └── showcase/                  # 10 commercial samples (S01-S10)
+├── docs/                          # Technical papers & reports
+├── guardian/                      # Guardian V7 controller (pseudocode + source)
+├── model/
+│   └── ordis_7b_v1/              # Model card, demos, capability analysis
+└── legacy/                        # Historical Ordis ecosystem projects
 ```
 
 ---
@@ -148,51 +174,38 @@ Ordis-Universe/
 
 | Property | Ordis | Typical Datasets |
 |----------|-------|-----------------|
-| Reproducibility | Macro: deterministic (4-way RNG isolation + config_hash). Micro: emergent behaviors are self-organizing and non-predetermined | Impossible |
-| Causal structure | Interventional (ablation done) | Observational only |
+| Reproducibility | Macro-deterministic (4-way RNG isolation + config_hash) | Impossible |
+| Causal structure | Interventional (463-seed ablation suite) | Observational only |
 | Temporal depth | 5,000 continuous steps | Sparse sampling |
-| Hierarchy | Individual → Group → System → Emergence | Single-level |
-| Emergence labels | Currency, politics, consciousness (zero hardcoding) | None |
+| Hierarchy | Individual -> Group -> System -> Emergence | Single-level |
+| Emergence | Currency, politics, consciousness (zero hardcoding) | None |
 | Privacy risk | Zero (100% synthetic) | GDPR/CCPA concerns |
 | Copyright | Zero disputes (original engine output) | Lawsuit-prone |
 
 ---
 
-## Try It Yourself
+## Access & Pricing
 
-**5 complete Type B seeds available for free evaluation:**
+| Tier | Price | Content |
+|------|-------|---------|
+| **Free (GitHub + HuggingFace)** | $0 | 10 structure previews + raw seed sample + model adapters |
+| **Tier 1: Temporal Trajectory** | $5,000/entry | 107-step full timeline + 57 event types (source data) |
+| **Tier 2: Parallel Worlds** | $1,500/pair | Same-seed counterfactual pairs |
+| **Tier 3: Spatial Topology** | $1,000/entry | Agent positions + movement + connectivity |
+| **Tier 4: Causal SFT** | $100/entry | 92,899 entries, directly usable for LLM fine-tuning |
 
-[`data/emergence_currency_discovery/sample_seeds/`](./data/emergence_currency_discovery/sample_seeds/)
-
-Each sample contains full tick_agg + events + entities + manifest + KPIs.
-
-### Verification Checklist
-
-1. Count alive entities in sample_entities → must equal tick_agg.alive
-2. Track lineage_id across generations → mutations visible
-3. ratio_sg shows power-law distribution, not smooth curves
-4. DATA_WARNING events (~4,802/run) — fakers don't keep these
-
----
-
-## Access
-
-| Level | Content | Use Case |
-|-------|---------|----------|
-| Free (GitHub) | 5 sample seeds + model adapter | Evaluation |
-| Research License | Selected subsets | Academic research |
-| Commercial License | Full dataset + engine | Production training |
+Prices are introductory and subject to increase. Early buyers lock in current rates.
 
 ### Contact
 
 - GitHub Issues: [OrdisAI/Ordis-Universe](https://github.com/OrdisAI/Ordis-Universe/issues)
-- HuggingFace: [sugiken/Ordis-7B-V1](https://huggingface.co/sugiken/Ordis-7B-V1)
+- HuggingFace: [sugiken](https://huggingface.co/sugiken)
 
 ---
 
 ## License
 
-- **Sample data (GitHub)**: CC BY-NC 4.0
+- **Sample data**: Structure previews only. Commercial license required for all use beyond personal inspection.
 - **Model weights**: Research use only
 - **Full dataset**: Commercial license required
 - **Papers**: Open access (Zenodo)
