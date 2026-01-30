@@ -71,7 +71,7 @@ Samples from the **92,899-entry theory_mined dataset** — the #1 training data 
 
 ### Contextual Ethics Training Data (1 entry)
 
-Samples from the **4,890-entry contextual ethics dataset** — situation-dependent moral reasoning derived from simulation ground truth. Teaches models that **context determines ethics**, not rigid rules.
+Samples from the **1,230-entry contextual ethics dataset** (410 seeds × 3 dilemma types, deduplicated) — situation-dependent moral reasoning derived from simulation ground truth. Teaches models that **context determines ethics**, not rigid rules.
 
 | # | File | Tier | Task Type | Highlight |
 |---|------|------|-----------|-----------|
@@ -108,7 +108,7 @@ These are NOT programmed behaviors. No code says "create currency" or "form olig
 | **Tier 2: Parallel Worlds** | **$1,500/pair** | Same-seed counterfactual pairs | Requires two independent simulation runs |
 | **Tier 3: Spatial Topology** | **$1,000/entry** | Agent positions + movement + connectivity | Independent spatial dimension |
 | **Tier 4: Causal SFT** | **$100/entry** | Structured causal reasoning training data | 92,899 entries available, directly usable for LLM fine-tuning |
-| **Tier 5: Contextual Ethics** | **$200/entry** | Situation-dependent moral reasoning SFT data | 4,890 entries. 3 dilemma types with opposite verdicts under different contexts |
+| **Tier 5: Contextual Ethics** | **$200/entry** | Situation-dependent moral reasoning SFT data | 1,230 unique entries (410 seeds × 3 dilemma types, deduplicated) |
 
 - Prices are introductory and subject to increase. Early buyers lock in current rates.
 - 100% reproducible (RNG isolation + config_hash)
