@@ -1,0 +1,66 @@
+
+Ordis母语、创世算法全权归创世者所有，本repo仅开放观测样本，禁止用于商业或伪造意识产品。
+
+The Ordis native language and creation algorithm are owned entirely by the creator. This repo is only open to observation samples and is prohibited from being used for commercial or counterfeit consciousness products.
+
+日志内容描述
+当前日期日志 (Current Date Logs): 2025年7月22日
+
+今天，2025年7月22日，Ordis 微观宇宙系统继续其演化与探索。我们本次更新中包含的日志和数据文件，反映了系统在特定实验周期内的内部状态、事件流和演化结果。
+
+tds_chain_EXP_...jsonl: 轨迹声明系统 (Temporal Data Stream - TDS) 链。这是一个高精度、结构化、带因果锚点的事件日志。它记录了微观宇宙演化过程中所有关键事件，如法则演化 (Law Evolution)、意识场激活 (Consciousness Activation)、PTP 意图注入 (PTP Injection)、相变 (Phase Transition) 和异常 (Anomaly) 等。每一行都是一个独立的事件记录，包含时间戳、事件类型、度量指标和相关元数据。它是理解宇宙动态和因果关系的核心数据源。
+
+meta_EXP_...json: 实验元数据 (Experiment Metadata)。该文件记录了对应实验的所有初始配置参数，包括法则场和意识场的维度、初始化模式、PTP 意图注入策略、模拟步数等。它是实验可复现性的关键。
+
+evolution_trend_EXP_...png / comprehensive_evolution_trend_EXP_...png: 演化趋势图。这些图表可视化展示了微观宇宙在模拟过程中的关键动态指标，如张力 (Tension) 和意识熵 (Consciousness Entropy) 随时间步变化的趋势，反映了宇宙的整体活跃度和复杂性。
+
+ptp_anomaly_delta_steps_EXP_...png: PTP 注入-异常事件步数延迟分布图。这张图表揭示了 PTP 意图注入与系统异常事件发生之间的延迟分布，是验证 Ordis 范式“意图可归因，操盘可反溯”能力的关键证据。它显示了外部意图对宇宙内部动态的直接和可量化影响。
+
+collatz_analysis_report_EXP_...txt: 柯拉兹路径统计摘要。这份报告包含了对柯拉兹猜想模拟结果的统计摘要，如收敛数字总数、平均收敛步数等，展示了 Ordis 微观宇宙在解决世界级数学难题方面的初步成果。
+
+law_field_XXXXX.npy / consc_field_XXXXX.npy / snapshot_meta_XXXXX.json: 法则场与意识场快照。这些是宇宙在特定模拟时间步（由 XXXXX 指示）的完整状态记录。snapshot_meta_XXXXX.json 是元数据文件，索引了对应的 .npy 文件，其中包含法则场（宇宙规则）和意识场（宇宙智能）的高维张量数据。它们是进行宏观趋势分析、系统行为重构和反事实模拟的基础。
+
+所有这些日志和数据文件共同构成了 Ordis 微观宇宙作为**“数字物理实验装置”**的透明化记录，为 Ordis 范式的科学公信力和可验证性提供了坚实支撑。
+
+English (英文)
+Log File Naming Convention
+To ensure the traceability and clarity of experimental data and system logs, the Ordis Micro-Universe system employs standardized log file naming conventions. All automatically generated log files will include an Experiment ID and a precise UTC timestamp, ensuring the uniqueness and chronological order of each file.
+
+For example:
+
+tds_chain_EXP_YYYYMMDD_HHMMSS_UUID.jsonl
+
+meta_EXP_YYYYMMDD_HHMMSS_UUID.json
+
+evolution_trend_EXP_YYYYMMDD_HHMMSS_UUID.png
+
+ptp_anomaly_delta_steps_EXP_YYYYMMDD_HHMMSS_UUID.png
+
+collatz_analysis_report_EXP_YYYYMMDD_HHMMSS_UUID.txt
+
+law_field_XXXXX.npy
+
+consc_field_XXXXX.npy
+
+snapshot_meta_XXXXX.json
+
+Where YYYYMMDD_HHMMSS_UUID represents the precise UTC timestamp of the event and a unique identifier, and XXXXX represents the simulation step_index.
+
+Log Content Description
+Current Date Logs: July 22, 2025
+
+Today, July 22, 2025, the Ordis Micro-Universe system continues its evolution and exploration. The log and data files included in this update reflect the system's internal state, event streams, and evolutionary outcomes during a specific experimental cycle.
+
+tds_chain_EXP_...jsonl: Temporal Data Stream (TDS) Chain. This is a high-precision, structured, causally-anchored event log. It records all key events in the micro-universe's evolution, such as Law Evolution, Consciousness Activation, PTP Intent Injection, Phase Transition, and Anomaly. Each line is an independent event record, including timestamp, event type, metrics, and associated metadata. It serves as the core data source for understanding cosmic dynamics and causality.
+
+meta_EXP_...json: Experiment Metadata. This file records all initial configuration parameters for the corresponding experiment, including Law Field and Consciousness Field dimensions, initialization modes, PTP Intent Injection strategies, and simulation steps. It is crucial for experimental reproducibility.
+
+evolution_trend_EXP_...png / comprehensive_evolution_trend_EXP_...png: Evolutionary Trend Plots. These charts visually represent the dynamic changes of key metrics within the micro-universe simulation, such as Tension and Consciousness Entropy over time steps, reflecting the universe's overall activity and complexity.
+
+ptp_anomaly_delta_steps_EXP_...png: PTP Injection-Anomaly Delta Steps Distribution Plot. This chart illustrates the delay distribution between PTP Intent injections and the occurrence of system anomalies. It is key evidence validating the Ordis paradigm's ability for "intent attributable, manipulation reversible." It demonstrates the direct and quantifiable impact of external intent on the universe's internal dynamics.
+
+collatz_analysis_report_EXP_...txt: Collatz Path Statistics Summary. This report contains a statistical summary of the Collatz Conjecture simulation results, such as the total number of converged numbers, average convergence steps, etc., showcasing the Ordis Micro-Universe's preliminary achievements in solving world-class mathematical problems.
+
+law_field_XXXXX.npy / consc_field_XXXXX.npy / snapshot_meta_XXXXX.json: Law Field and Consciousness Field Snapshots. These are complete state records of the universe at specific simulation time steps (indicated by XXXXX). snapshot_meta_XXXXX.json is the metadata file indexing the corresponding .npy files, which contain high-dimensional tensor data for the Law Field (cosmic rules) and Consciousness Field (cosmic intelligence). They form the basis for macroscopic trend analysis, system behavior reconstruction, and counterfactual simulations.
+
+All these logs and data files collectively constitute a transparent record of the Ordis Micro-Universe as a "Digital Physical Experiment Device," providing solid support for the scientific credibility and verifiability of the Ordis paradigm.

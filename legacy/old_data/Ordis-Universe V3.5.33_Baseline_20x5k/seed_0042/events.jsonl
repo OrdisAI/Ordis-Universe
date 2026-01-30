@@ -1,0 +1,992 @@
+{"type": "DATA_WARNING", "seed": 42, "step": 0, "msg": "ecs.genealogy not available (will use lineage_id fallback)"}
+{"type": "SIMULATION_CONFIG", "seed": 42, "step": 0, "config": {"N_cap": 200, "grid_size": 0, "metabolism": {}, "reproduction_interval": 31, "macro_allow_execution": false, "macro_warmup_steps": 200, "macro_window_quota": 0.15, "synergy_threshold": 0.36, "legacy_mode": false, "l0_ecosystem_enabled": true, "combat_enabled": true, "replay_enabled": true, "meta_rules_enabled": true, "communication_enabled": true, "oims_v2_enabled": true, "config_hash": "f311e469359b", "git_commit": "unknown", "replay_keyframe_interval": 200, "replay_snapshot_count": 0, "rng_isolated": true, "rng_base_seed": 42}}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 0, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_APPLIED", "seed": 42, "step": 0, "rule": "reproduction_threshold", "old": 30.0, "new": 29.907324209912428, "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 1, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 2, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 3, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 4, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 5, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 6, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 7, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 8, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 9, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 10, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 11, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 12, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 13, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 14, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 15, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 16, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 17, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 18, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 19, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 20, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 21, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 22, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 23, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 24, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 25, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 26, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 27, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 28, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 29, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 30, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 31, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 32, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 33, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 34, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 35, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 36, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 37, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 38, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 39, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 40, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 41, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 42, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 43, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 44, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 45, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 46, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 47, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 48, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 49, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 50, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 51, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 52, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 53, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 54, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 55, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 56, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 57, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 58, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 59, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 60, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 61, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 62, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 63, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 64, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 65, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 66, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 67, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 68, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 69, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 70, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 71, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 72, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 73, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 74, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 75, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 76, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 77, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 78, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 79, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 80, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 81, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 82, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 83, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 84, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 85, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 86, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 87, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 88, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 89, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 90, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 91, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 92, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 93, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 94, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 95, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 96, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 97, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 98, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "COMBO_DISCOVERED", "seed": 42, "step": 99, "pattern": "OGGGG", "synergy": 1.752, "p": 0.0, "origin": "COMBO", "fdr_q": 0.0, "windows": 1}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 99, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "COMBO_ADOPTED", "seed": 42, "step": 100, "pattern": "OGGGG", "adoption_rate": 1.015, "delta_occurrences": 200, "adoption_origin": "msg_any", "mi_at_adopt": 3.599}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 100, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_APPLIED", "seed": 42, "step": 100, "rule": "reproduction_threshold", "old": 29.907324209912428, "new": 29.814934713259763, "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 101, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 102, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 103, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 104, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 105, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 106, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 107, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 108, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 109, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 110, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 111, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 112, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 113, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 114, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 115, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 116, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 117, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 118, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 119, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 120, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 121, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 122, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 123, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 124, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 125, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 126, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 127, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 128, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 129, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 130, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 131, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 132, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 133, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 134, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 135, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 136, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 137, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 138, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 139, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 140, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 141, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 142, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 143, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 144, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 145, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 146, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 147, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 148, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 149, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 150, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 151, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 152, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 153, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 154, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 155, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 156, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 157, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 158, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 159, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 160, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 161, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 162, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 163, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 164, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 165, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 166, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 167, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 168, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 169, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 170, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 171, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 172, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 173, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 174, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 175, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 176, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 177, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 178, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 179, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 180, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 181, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 182, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 183, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 184, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 185, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 186, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 187, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 188, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 189, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 190, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 191, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 192, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 193, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 194, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 195, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 196, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 197, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 198, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 199, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 199, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 200, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 200, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_APPLIED", "seed": 42, "step": 200, "rule": "reproduction_threshold", "old": 29.814934713259763, "new": 29.722830625627843, "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 201, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 201, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 202, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 202, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 203, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 203, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 204, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 204, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 205, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 205, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 206, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 206, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 207, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 207, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 208, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 208, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 209, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 209, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 210, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 210, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 211, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 211, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 212, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 212, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 213, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 213, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 214, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 214, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 215, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 215, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 216, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 216, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 217, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 217, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 218, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 218, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 219, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 219, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 220, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 220, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 221, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 221, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 222, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 222, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 223, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 223, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 224, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 224, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 225, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 225, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 226, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 226, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 227, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 227, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 228, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 228, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 229, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 229, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 230, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 230, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 231, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 231, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 232, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 232, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 233, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 233, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 234, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 234, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 235, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 235, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 236, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 236, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 237, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 237, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 238, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 238, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 239, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 239, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 240, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 240, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 241, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 241, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 242, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 242, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 243, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 243, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 244, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 244, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 245, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 245, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 246, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 246, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 247, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 247, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 248, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 248, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 249, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 249, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 250, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 250, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 251, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 251, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 252, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 252, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 253, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 253, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 254, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 254, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 255, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 255, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 256, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 256, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 257, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 257, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 258, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 258, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 259, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 259, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 260, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 260, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 261, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 261, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 262, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 262, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 263, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 263, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 264, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 264, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 265, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 265, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 266, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 266, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 267, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 267, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 268, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 268, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 269, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 269, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 270, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 270, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 271, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 271, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 272, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 272, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 273, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 273, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 274, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 274, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 275, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 275, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 276, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 276, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 277, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 277, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 278, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 278, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 279, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 279, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 280, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 280, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 281, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 281, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 282, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 282, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 283, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 283, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 284, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 284, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 285, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 285, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 286, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 286, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 287, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 287, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 288, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 288, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 289, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 289, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 290, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 290, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 291, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 291, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 292, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 292, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 293, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 293, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 294, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 294, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 295, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 295, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 296, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 296, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 297, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 297, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 298, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 298, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 299, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 299, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 300, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 300, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_APPLIED", "seed": 42, "step": 300, "rule": "reproduction_threshold", "old": 29.722830625627843, "new": 29.6310110653347, "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 301, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 301, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 302, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 302, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 303, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 303, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 304, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 304, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 305, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 305, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 306, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 306, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 307, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 307, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 308, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 308, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 309, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 309, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 310, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 310, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 311, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 311, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 312, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 312, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 313, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 313, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 314, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 314, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 315, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 315, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 316, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 316, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 317, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 317, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 318, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 318, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 319, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 319, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 320, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 320, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 321, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 321, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 322, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 322, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 323, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 323, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 324, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 324, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 325, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 325, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 326, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 326, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 327, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 327, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 328, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 328, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 329, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 329, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 330, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 330, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 331, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 331, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 332, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 332, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 333, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 333, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 334, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 334, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 335, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 335, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 336, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 336, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 337, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 337, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 338, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 338, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "CRISIS_ON", "seed": 42, "step": 339, "reason": "starvation", "alive": 174, "alive_frac": 0.87, "starving_ratio": 0.305}
+{"type": "DATA_WARNING", "seed": 42, "step": 339, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 339, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 340, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 340, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 341, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 341, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 342, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 342, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 343, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 343, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 344, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 344, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 345, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 345, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 346, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 346, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 347, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 347, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 348, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 348, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 349, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 349, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 350, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 350, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 351, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 351, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 352, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 352, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 353, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 353, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 354, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 354, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 355, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 355, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 356, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 356, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 357, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 357, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 358, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 358, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 359, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 359, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 360, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 360, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 361, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 361, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 362, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 362, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 363, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 363, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 364, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 364, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 365, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 365, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 366, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 366, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 367, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 367, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 368, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 368, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 369, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 369, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 370, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 370, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 371, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 371, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 372, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 372, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 373, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 373, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 374, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 374, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 375, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 375, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 376, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 376, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 377, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 377, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 378, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 378, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 379, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 379, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 380, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 380, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 381, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 381, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 382, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 382, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 383, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 383, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 384, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 384, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 385, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 385, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 386, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 386, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 387, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 387, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 388, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 388, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 389, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 389, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 390, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 390, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 391, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 391, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 392, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 392, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 393, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 393, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 394, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 394, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 395, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 395, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 396, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 396, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 397, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 397, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 398, "where": "deaths", "msg": "index 192 is out of bounds for dimension 0 with size 192"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 398, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 399, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 399, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 400, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 400, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_APPLIED", "seed": 42, "step": 400, "rule": "reproduction_threshold", "old": 29.6310110653347, "new": 29.53947515342214, "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 401, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 401, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 402, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 402, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 403, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 403, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 404, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 404, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 405, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 405, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 406, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 406, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 407, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 407, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 408, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 408, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 409, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 409, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 410, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 410, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 411, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 411, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 412, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 412, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 413, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 413, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 414, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 414, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 415, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 415, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 416, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 416, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 417, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 417, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 418, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 418, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 419, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 419, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 420, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 420, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 421, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 421, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 422, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 422, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 423, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 423, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 424, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 424, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 425, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 425, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 426, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 426, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 427, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 427, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 428, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 428, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 429, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 429, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 430, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 430, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 431, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 431, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 432, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 432, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 433, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 433, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 434, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 434, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 435, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 435, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 436, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 436, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 437, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 437, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 438, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 438, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 439, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 439, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 440, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 440, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 441, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 441, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 442, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 442, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 443, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 443, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 444, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 444, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 445, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 445, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 446, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 446, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 447, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 447, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 448, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 448, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 449, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 449, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 450, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 450, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 451, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 451, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 452, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 452, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 453, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 453, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 454, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 454, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 455, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 455, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 456, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 456, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 457, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 457, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 458, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 458, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 459, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 459, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 460, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 460, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 461, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 461, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 462, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 462, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 463, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 463, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 464, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 464, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 465, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 465, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 466, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 466, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 467, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 467, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 468, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 468, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 469, "where": "deaths", "msg": "index 181 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 469, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 470, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 470, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 471, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 471, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 472, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 472, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 473, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 473, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 474, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 474, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 475, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 475, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 476, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 476, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 477, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 477, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 478, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 478, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 479, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 479, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 480, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 480, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 481, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 481, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 482, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 482, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 483, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 483, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 484, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 484, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 485, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 485, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 486, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 486, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 487, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 487, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 488, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 488, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 489, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 489, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 490, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 490, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 491, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 491, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 492, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 492, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 493, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 493, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 494, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 494, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 495, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 495, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 496, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 496, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 497, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 497, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 498, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 498, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 499, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 499, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 500, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 500, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "META_RULE_APPLIED", "seed": 42, "step": 500, "rule": "reproduction_threshold", "old": 29.53947515342214, "new": 29.44822201364731, "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 501, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 501, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 502, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 502, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 503, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 503, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 504, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 504, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 505, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 505, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 506, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 506, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 507, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 507, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 508, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 508, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 509, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 509, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 510, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 510, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 511, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 511, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 512, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 512, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 513, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 513, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 514, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 514, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 515, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 515, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 516, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 516, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 517, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 517, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 518, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 518, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 519, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 519, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 520, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 520, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 521, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 521, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 522, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 522, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 523, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 523, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 524, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 524, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 525, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 525, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 526, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 526, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 527, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 527, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 528, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 528, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 529, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 529, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 530, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 530, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 531, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 531, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 532, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 532, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 533, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 533, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 534, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 534, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 535, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 535, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 536, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 536, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 537, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 537, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 538, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 538, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 539, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 539, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 540, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 540, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 541, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 541, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 542, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 542, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 543, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 543, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 544, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 544, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 545, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 545, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 546, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 546, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 547, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 547, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 548, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 548, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 549, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 549, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 550, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 550, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 551, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 551, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 552, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 552, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 553, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 553, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 554, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 554, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 555, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 555, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 556, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 556, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 557, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 557, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 558, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 558, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 559, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 559, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 560, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 560, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 561, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 561, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 562, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 562, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 563, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 563, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 564, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 564, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 565, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 565, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 566, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 566, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 567, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 567, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 568, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 568, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 569, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 569, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 570, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 570, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 571, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 571, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 572, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 572, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 573, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 573, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 574, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 574, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 575, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 575, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 576, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 576, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 577, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 577, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 578, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 578, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 579, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "META_RULE_VOTE", "seed": 42, "step": 579, "rule": "v3528_genome_vote", "votes": 0, "quorum": 0, "passed": true}
+{"type": "DATA_WARNING", "seed": 42, "step": 580, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 581, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 582, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 583, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 584, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 585, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 586, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 587, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 588, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 589, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 590, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 591, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 592, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 593, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 594, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 595, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 596, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 597, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 598, "where": "deaths", "msg": "index 169 is out of bounds for dimension 0 with size 169"}
+{"type": "DATA_WARNING", "seed": 42, "step": 599, "where": "deaths", "msg": "index 0 is out of bounds for dimension 0 with size 0"}

@@ -1,0 +1,29 @@
+{
+  "version": "V3.5.27",
+  "timestamp": "2025-12-07T23:08:32.961687",
+  "seed": 44,
+  "config_hash": "9a052b02c345",
+  "git_commit": "unknown",
+  "config_path": "C:\\Users\\Administrator\\Desktop\\AI赛艇\\Ordis-创世沙盘\\Ordis液态宇宙引擎v3.4.0\\config_v3529_winter.yaml",
+  "module_states": {
+    "meta_rules_H1": true,
+    "communication_H4": true,
+    "emergent_combo_H2": true,
+    "oims_memory_H3": true,
+    "l0_ecosystem": true,
+    "combat_kernel": true,
+    "replay_protocol": true,
+    "crisis_governor": true,
+    "macro_system": true,
+    "macro_legacy_mode": false,
+    "oims_ucb_credit": true
+  },
+  "replay": {
+    "enabled": true,
+    "keyframe_interval": 200
+  },
+  "rng": {
+    "isolated": true,
+    "base_seed": 44
+  }
+}

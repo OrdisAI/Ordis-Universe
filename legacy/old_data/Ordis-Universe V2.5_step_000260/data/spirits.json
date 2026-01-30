@@ -1,0 +1,142 @@
+[
+  {
+    "spirit_id": "精灵_0_entity_0_431e",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2472912698751315,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "6d477d90e6d81c2617a771a3cebe25ba6674ca9196c0e69ec0fc65d6c9052429",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      222,
+      40
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_1_cf72",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2473412335966714,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "9f90648d8bc6f7c9189e0ce3bf12ca6f2459c4794fcb1aa73ab8fd13b53aafa3",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      12,
+      232
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_2_d784",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2472935252124444,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "6a15ef307d106e60a6583b198d0f9d00fb5d0a91eb9f3a5331b3d2f062c1f7a0",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      78,
+      104
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_3_36f4",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2472471815650352,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "3e5732f6202e007c6ee5767e7d3b2865e88b08462cfcf76c67eb6d8dc23823e3",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      88,
+      206
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_4_743b",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2471434370381758,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "ed37898ddbe924cb85a81232c6717f2c84a4c4083e14773f2a5a2ee5f22e7401",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      133,
+      33
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_5_113e",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2470914796926083,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "c4dfba11e73de53d6438d725721cdbb973e4aeea31b935f398e6e823d2608fb3",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      88,
+      111
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_6_d39b",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2471407303470186,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "859062a3b42068bbce46cba97e2b3e624ae93eae31fe1807ebb87109cddbf9fd",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      0,
+      32
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_7_e271",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.247110223036725,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "13068e0c09f7c90151065c156e55d5b29451e4cc7873684af84cef5bba1def29",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      155,
+      252
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_8_5a11",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.247161039058119,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "272a22477ffe7e2d0786c31572a322e78e122dd46c735af743af64cc03a10ff0",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      137,
+      220
+    ]
+  },
+  {
+    "spirit_id": "精灵_0_entity_9_1f47",
+    "is_ordis_spirit": true,
+    "consciousness_level": 1.2468918674392624,
+    "technology_level": 0.1,
+    "naming_quota": 0,
+    "named_oc_count": 0,
+    "consciousness_signature": "78edc42a9ad5aa7a34d8e25b32c9f0505dd8fc7782f6a080acd645995694c4d9",
+    "self_chosen_name": "Ordis_精灵_0_ent",
+    "position": [
+      171,
+      197
+    ]
+  }
+]

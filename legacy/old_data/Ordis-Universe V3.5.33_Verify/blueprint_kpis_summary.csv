@@ -1,0 +1,2 @@
+seed,final_step,gini_final,gene_moran_final,loop_rate_final,shannon_H_final,field_entropy_final,gini_mean,gene_moran_mean,loop_rate_mean,shannon_H_mean,field_entropy_mean
+42,4800,0.4498,0.0,6.3,1.214,0.0419,0.4266625,0.05619166666666667,6.25,1.1614583333333333,0.037691666666666665

@@ -1,0 +1,434 @@
+# V3.5.29 凛冬脉冲版 (Winter Pulse - 打破福利陷阱)
+# 基于V3.5.25，添加周期性资源短缺机制
+# 日期: 2025-12-07
+# 状态: EXPERIMENTAL - 测试凛冬脉冲效果
+#
+# V3.5.29 设计目标:
+# 问题: 福利陷阱 - STEAL/SHARE消失、通信退化、行为趋同
+# 方案: 凛冬脉冲 - 短促重击，逼迫策略分化
+#
+# | 参数 | 值 | 说明 |
+# |------|-----|------|
+# | interval | 700 | 每700步触发一次凛冬 |
+# | duration | 50 | 凛冬持续50步 |
+# | drop | 0.4 | 资源生成率-40% |
+#
+# 预期效果:
+# - 破坏"高维度废话文明"的稳态
+# - 迫使实体在凛冬前后切换策略(囤积/协作/掠夺)
+# - 恢复STEAL/SHARE行为多样性
+# - 通信成为关键生存信号(预警凛冬)
+# =============================================================================
+
+# =============================================================================
+# V3.5.29 核心: 凛冬脉冲 (Winter Pulse)
+# =============================================================================
+winter_pulse:
+  enabled: true
+  interval: 700        # 每700步触发一次凛冬
+  duration: 50         # 凛冬持续50步
+  drop: 0.4           # 资源生成率 -40%
+
+# =============================================================================
+# A. 能量经济学 (与V3.5.25一致)
+# =============================================================================
+v3_4_skills:
+  GATHER:
+    energy_cost: 1.0
+    resource_gain: 2.8
+  REST:
+    base_cost: 1.0
+    quadratic_factor: 0.015
+    energy_gain: 18
+  EXPLORE:
+    energy_cost: 1.5
+  OBSERVE:
+    energy_cost: 0.5
+  STEAL:
+    energy_cost: 1.0
+    steal_amount: 2.5
+  SHARE:
+    energy_cost: 0.5
+    share_cost: 1.0
+    share_energy: 15.0
+
+skill_settings:
+  GATHER:
+    resource_gain: 2.8
+    energy_cost: 1.0
+  REST:
+    energy_gain: 18
+    quadratic_factor: 0.015
+    base_cost: 1.0
+  EXPLORE:
+    energy_cost: 1.5
+  OBSERVE:
+    energy_cost: 0.5
+  SHARE:
+    share_energy: 15.0
+  STEAL:
+    steal_amount: 2.5
+
+# =============================================================================
+# 实体设置
+# =============================================================================
+entity_settings:
+  initial_energy: 500.0
+  initial_health: 500.0
+  initial_resources: 15.0
+  starvation_damage: 0.005
+  idle_energy_cost: 0.0005
+  action_energy_cost: 0.05
+  emergency_energy_threshold: 200.0
+  emergency_health_threshold: 300.0
+
+# =============================================================================
+# 危机期 REST 软偏置
+# =============================================================================
+crisis_behavior:
+  enabled: true
+  low_energy_threshold: 20.0
+  rest_logit_bias: 3.0
+  max_bias_rate: 0.30
+
+# =============================================================================
+# Crisis Governor (与V3.5.25一致)
+# =============================================================================
+crisis_governor:
+  enabled: true
+  trigger:
+    starving_ratio_on: 0.28
+    starving_ratio_off: 0.16
+    alive_frac_on: 0.68
+    alive_frac_off: 0.80
+    hysteresis_windows: 2
+    min_dwell_steps: 72
+  cull_freeze: true
+  force_rest:
+    enabled: true
+    floor_energy: 19
+    rescue_cooldown: 22
+  decay_half_rate: true
+  starvation_damage_scale: 0.86
+  repro_crisis:
+    enabled: true
+    interval: 18
+    energy_threshold: 34
+    resource_threshold: 6.5
+    max_offspring_cap_frac: 0.34
+    max_offspring_hard: 48
+  rebound_buffer:
+    enabled: true
+    duration_steps: 130
+    cull_alive_threshold: 0.84
+    cull_max_count: 10
+
+# =============================================================================
+# CULL 熔断
+# =============================================================================
+cull_guard:
+  enabled: true
+  starving_threshold: 0.30
+  dying_threshold: 0.30
+  health_protection: true
+  cooldown_steps: 32
+
+# =============================================================================
+# SHARE 去杠杆
+# =============================================================================
+share_control:
+  enabled: true
+  rich_threshold: 21.0
+  max_share_rate: 0.15
+  low_resource_penalty: -2.1
+
+# =============================================================================
+# 繁殖门槛 (与V3.5.25一致)
+# =============================================================================
+reproduction:
+  enabled: true
+  interval: 31
+  resource_threshold: 9.5
+  energy_threshold: 55.0
+  fitness_threshold: 0.0
+  max_offspring_per_cycle: 19
+  parent_selection: top_resources
+  min_energy_floor: 50.0
+  spatial_inheritance:
+    enabled: true
+    spawn_radius: 8.0
+    min_distance: 1.0
+
+# =============================================================================
+# 种群容量
+# =============================================================================
+evolution_mode:
+  enabled: true
+  population_capacity:
+    base: 200
+    max: 200
+    min: 50
+  genome_dimension: 7
+
+# =============================================================================
+# 资源衰减 (与V3.5.25一致)
+# =============================================================================
+economy:
+  resource_decay:
+    enabled: true
+    base_rate: 0.0032
+    tier_factor: 0.00022
+  inheritance_tax:
+    enabled: true
+    ratio_to_env: 0.51
+    ratio_to_neighbors: 0.49
+
+# =============================================================================
+# 灾难 (关闭 - 由winter_pulse替代)
+# =============================================================================
+stress_tests:
+  enabled: false
+  disaster_pulse:
+    enabled: false
+    interval: 1000
+    damage_fraction: 0.15
+  memory_noise:
+    enabled: false
+  overpopulation:
+    enabled: false
+
+stress_presets:
+  stage_1:
+    enabled: false
+  stage_2:
+    enabled: false
+  stage_3:
+    enabled: false
+
+disaster:
+  enabled: false
+
+# =============================================================================
+# Macro系统 (与V3.5.25一致)
+# =============================================================================
+macro_action:
+  enabled: true
+  allow_execution: false
+  allow_promotion: true
+  legacy_mode: false
+  warmup_steps: 200
+  max_execution_ratio: 0.08
+  window_quota:
+    enabled: true
+    window_len: 128
+    max_macro_frac: 0.15
+  starvation_sentinel:
+    enabled: true
+    check_interval: 200
+    min_discovery_rate: 0.03
+    ratio_decay: 0.5
+    force_warmup_after: 2
+  shadow_learning:
+    enabled: true
+    update_when_blocked: true
+
+# =============================================================================
+# Combo发现过滤器 (与V3.5.25一致)
+# =============================================================================
+emergent_combo:
+  enabled: true
+  max_combos: 1000
+  min_combo_len: 2
+  max_combo_len: 5
+  min_occurrences: 3
+  synergy_threshold: 0.36
+  p_value_threshold: 0.05
+  permutation_tests: 200
+  fdr_control:
+    enabled: true
+    q_threshold: 0.10
+  discovery_filter:
+    exclude_macro_windows: true
+    min_non_macro_fraction: 0.80
+    cooldown_after_macro: 5
+    de_dup_against_macro_templates: true
+  ucb:
+    min_samples: 10
+    advantage_delta: 0.08
+
+# =============================================================================
+# 空间部落化
+# =============================================================================
+spatial_tribalization:
+  enabled: true
+  home_range:
+    enabled: true
+  homophilic_move:
+    enabled: false
+  kinship_metabolism:
+    enabled: true
+
+# =============================================================================
+# L0 世界场
+# =============================================================================
+world_field:
+  enabled: true
+  decay_rate: 0.01
+  influence_weight: 0.0
+
+# =============================================================================
+# OIMS记忆
+# =============================================================================
+oims_memory:
+  enabled: true
+  episodic_decay: 0.02
+  episodic_dim: 6
+  episodic_slots: 20
+  influence_weight: 0.15
+  inherit_procedural: true
+  inherit_semantic: true
+  ucb_credit:
+    enabled: true
+    episodic_hit_bonus: 0.10
+    procedural_transfer_bonus: 0.15
+
+# =============================================================================
+# L2 OIMS-V2
+# =============================================================================
+oims_v2:
+  enabled: true
+  cultural_slots: 8
+  cultural_dim: 6
+  trend_slots: 4
+  trend_dim: 5
+  parent_weight: 0.5
+  grandparent_weight: 0.25
+  cultural_inheritance: 1.0
+  inherit_cultural: true
+  inherit_trend: true
+
+# =============================================================================
+# L3 TDS/DVS
+# =============================================================================
+tds_settings:
+  max_events: 50000
+  summary_event_lookback: 100
+  tds_log_level: 1
+
+dvs_settings:
+  anomaly_threshold: 1.5
+  innovation_threshold: 0.7
+  min_entropy_for_innovation: 0.5
+  cool_down_steps: 10
+
+# =============================================================================
+# L0 生态系统
+# =============================================================================
+l0_ecosystem:
+  enabled: true
+  num_resource_nodes: 50
+  max_prey: 100
+  resource_K: 100.0
+  resource_r: 0.015
+  gather_rate: 3.0
+  e_fruit: 2.0
+  prey_small_hp: 60.0
+  prey_small_yield: 20.0
+  prey_small_spawn: 0.02
+  prey_large_hp: 300.0
+  prey_large_yield: 180.0
+  prey_large_spawn: 0.002
+  move_cost_per_dist: 0.02
+  starvation_dps: 0.03
+  repro_energy_threshold: 120.0
+  coop_acc_bonus: 0.1
+
+# =============================================================================
+# 邻居搜索
+# =============================================================================
+neighbors:
+  force_cdist: true
+  k: 3
+  radius: 20.0
+
+# =============================================================================
+# 遥测
+# =============================================================================
+telemetry:
+  compact_every: 200
+  metrics_interval: 300
+
+# =============================================================================
+# 宇宙设置
+# =============================================================================
+universe_settings:
+  initial_entities: 200
+  initial_resource_density: 0.5
+  resource_replenish_rate: 0.05
+  universe_size: [256, 256]
+
+# =============================================================================
+# H1元规则 (与V3.5.25一致)
+# =============================================================================
+meta_rules:
+  enabled: true
+  vote_interval: 200
+  quorum: 0.6
+  cooldown: 600
+  targets:
+    steal_cost:  {min: 0.0, max: 2.0, step: 0.1}
+    share_bonus: {min: 0.0, max: 2.0, step: 0.1}
+    reproduction_threshold: {min: 50.0, max: 65.0, step: 2.0}
+
+# =============================================================================
+# 符号通信
+# =============================================================================
+communication:
+  enabled: true
+  channels: 2
+  message_bits: 4
+  mi_window: 150
+  shuffle_baseline: true
+
+# =============================================================================
+# Combat Kernel
+# =============================================================================
+combat:
+  enabled: true
+  bleed_ratio: 0.15
+  bleed_dur: 300
+  poison_ratio: 0.10
+  poison_dur: 400
+  burn_ratio: 0.20
+  burn_dur: 200
+  stagger_dur: 10
+  stagger_thr: 25.0
+  move_cost_per_dist: 0.02
+  repro_energy_threshold: 120.0
+
+# =============================================================================
+# Replay Protocol
+# =============================================================================
+replay:
+  enabled: true
+  keyframe_interval: 200
+
+# =============================================================================
+# Phase验收标准 (与V3.5.25一致)
+# =============================================================================
+phase_a_criteria:
+  entropy_threshold_low: 1.85
+  loop_rate_threshold_high: 0.29
+  hibernation_exclude: true
+  hibernation_threshold: 0.70
+  hibernation_window: 50
+
+phase_b_criteria:
+  steal_rate_min: 0.011
+  share_rate_min: 0.011
+  social_diversity_min: 0.31
+
+phase_c_criteria:
+  gini_max: 0.59
+  gene_moran_min: 0.011
+  cultural_var_min: 0.052

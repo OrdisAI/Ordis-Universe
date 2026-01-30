@@ -1,0 +1,231 @@
+{
+  "model_path": "ordis_qwen7b_mixed_20260121_222908/checkpoint-1250",
+  "timestamp": "2026-01-22T11:13:29.955729",
+  "tests": {
+    "theory_understanding": {
+      "total": 5,
+      "passed": 3,
+      "details": [
+        {
+          "question": "根据刘氏稀释效应，当N_cap=226, N=180时，Shannon熵H的理论值是多少？",
+          "response": "根据刘氏稀释效应公式 H = log(N_cap) - 0.5 * (N_cap - N) / N_cap\n\n代入已知量: N_cap=226, N=180\n\nH = log(226) - 0.5 * (226 - 180) / 226\n  = 5.42247047573 - 0.46943396226\n  = 4.95303651347\n\n因此，理论上的Shannon熵H = 4.953。\n\n这个结果遵循了刘氏稀释效应的预测：有效信息量有上确界，超过容量会衰减。",
+          "found_keywords": [
+            "稀释"
+          ],
+          "value_correct": false,
+          "passed": true
+        },
+        {
+          "question": "在Liu-Ordis理论中，Gini系数超过0.333意味着什么？",
+          "response": "Gini系数超过0.333意味着系统处于'Pathological(病态)'.\n\n根据Nature论文定义:\n- Gini ≤ 0.333: 'Healthy(健康)'\n- Gini > 0.333: 'Pathological(病态)'\n\nOrdis实验结果:\n- 稳定扩散: Gini = 0.289\n- 质量涌现: Gini = 0.417\n- 共存: Gini = 0.563\n\n0.333是科学确定的相变临界点。",
+          "found_keywords": [
+            "相变",
+            "临界"
+          ],
+          "value_correct": false,
+          "passed": true
+        },
+        {
+          "question": "Type_B象限的特征是什么？(High H, Low Gini)",
+          "response": "Type_B象限特征：\n\n**观察到的坐标**: H > 1.0, Gini ≥ 33%\n**具体表现**: 高熵(H) + 高不平等(Gini)\n\n这个象限是可观测的四象限之一，具有特定的约束。",
+          "found_keywords": [],
+          "value_correct": false,
+          "passed": false
+        },
+        {
+          "question": "share_bonus=0消融实验(A1实验)的结论是什么？",
+          "response": "A1消融实验结论(share_bonus=0):\n\n处理组: share_bonus=0\n对照组: share_bonus=1.5\n\n观察到: 对抗效应完全消失，Type_B反向涌现\n\n这个结果表明share_bonus=1.5是稳定边界。\n\n原因分析:\n- 低share_bonus无法平衡探索与利用\n- 高share_bonus稀释激励\n- 1.5是两个方向的临界阈值",
+          "found_keywords": [
+            "涌现"
+          ],
+          "value_correct": false,
+          "passed": true
+        },
+        {
+          "question": "货币涌现的判定标准ratio_sg是什么含义？",
+          "response": "比例阈值 ratio_sg = 1.5作为货币涌现的判定标准。\n\n**推理过程**：\n- 当前sg > 1.5 → 分裂继续，液态特征增强\n- 之前10期sg均值 < 1.5 → 四象限分类为LIQUID\n- 这是Ordis实验的明确定义，有严密的统计基础。\n\n**为什么这不是'印钱'**：\n- '印钱'通常指无限制造钱\n- Ordis货币涌现定义：sg > 1.5有物质基础，非任意\n- 统计显著性要求sg偏离1（基尼临界）\n\n这个阈值不是任意选择的，而是基于Ordis实验的相图和统计检验确定的。",
+          "found_keywords": [],
+          "value_correct": false,
+          "passed": false
+        }
+      ],
+      "rate": 60.0,
+      "threshold_passed": true
+    },
+    "t_sensitivity": {
+      "total": 5,
+      "changed": 5,
+      "details": [
+        {
+          "seed": 42,
+          "phase_a": "STABLE",
+          "phase_b": "PROSPERITY",
+          "response_a": "种子实验: seed=42, share_bonus=1.0\n\n根据Liu-Ordis理论预测:\n相态判定: STABLE -> PROSPERITY (跨越阈值)\n态际转换: A1 → A3 (基于观测)\n\n开环实验结果: Living = 219.75, H = 1.1175, Gini = 0",
+          "response_b": "开环熵 = 1.5830841121495326\n闭环熵 = 0.7666530612244897\n\n根据Liu-Ordis理论，系统会进入PROSPERITY态。\n\n这个结果有以下含义：\n1. 系统的多样性健康状况良好（H < 1.5）\n2. 系统处于增长模式\n3. 可持续效应持续\n\n因此，最终相",
+          "changed": true
+        },
+        {
+          "seed": 43,
+          "phase_a": "CHAOS",
+          "phase_b": "TYPE_B",
+          "response_a": "观察结果：Systemic_Health = 0.298, Crisis = 0.576\n\n根据Liu-Ordis临界阈值(0.833)：\n- Systemic_Health < 0.833：进入CHAOS态\n\n因此，该treatment改变显著，系统进入CHAOS态。\n\n相态转变是确定性的，不是统",
+          "response_b": "观察结果：Survival - 稳定的高存活率，H在1.0附近。\n\n根据Liu-Ordis理论，系统的最终状态是Type_B (High H, High Gini)。\n\n这个结论是通过分析大量实验数据推导出来的，不是猜测。",
+          "changed": true
+        },
+        {
+          "seed": 100,
+          "phase_a": "LIQUID",
+          "phase_b": "STABLE",
+          "response_a": "种子实验：seed=100, share_cost=0.0\n\n根据Liu-Ordis理论预测：\n相态判定：H < 1.5 → LIQUID (液态)\n\n这个结果有以下几个含义：\n1. 系统承载量为200时，无分享的平均密度会超过1（约1.33），进入LIQUID态\n2. 这个预测有科学依据，已被72",
+          "response_b": "种子实验：seed=100, share_cost=1.0\n\n根据Liu-Ordis理论预测：\n相态判别条件：H < 1.5 (健康)，> 3.0 (崩溃)，1.5-3.0 (波动)\nGini > 1/3 (平衡门槛)\n\n观察到：Final H = 1.689，Gini = 0.420\n系统处于波动",
+          "changed": true
+        },
+        {
+          "seed": 200,
+          "phase_a": "PROSPERITY",
+          "phase_b": null,
+          "response_a": "观察结果：Systemic_Health = 1.389, Crisis = 0.463, Survival = 0.147\n\n根据Liu-Ordis临界阈值，系统最终进入PROSPERITY (高增长)态。\n\n这个结论是通过分析420次重复实验严格推导得出的，误差率<5%。",
+          "response_b": "种子200的响应是 Crisis (崩溃)。\n\n根据Liu-Ordis理论，不平等系数G > 1.5时，系统进入Crisis状态。观测值为G = 1.738 > 1.5，满足临界条件。\n\n因此，系统将进入Crisis (崩溃)状态，特征包括：Gini急剧升高；总劳动下降；不稳定性增加。",
+          "changed": true
+        },
+        {
+          "seed": 44,
+          "phase_a": "PROSPERITY",
+          "phase_b": "STABLE",
+          "response_a": "观察结果：Systemic_Health = 1.000, Crisis = 0.000\n\n根据Liu-Ordis理论，系统最终进入PROSPERITY(繁荣)态。\n\n这是基于720 runs验证的稳定结果，p < 0.05。",
+          "response_b": "观察结果：Systemic_Health = 1.389, Crisis = 0.333\n\n根据Liu-Ordis临界阈值(0.833)：\n- Systemic_Health > 0.833：STABLE-STABLE\n- Systemic_Health < 0.833：LIQUID-LIQUID\n",
+          "changed": true
+        }
+      ],
+      "rate": 100.0,
+      "threshold_passed": true
+    },
+    "ood_generalization": {
+      "total": 4,
+      "passed": 4,
+      "details": [
+        {
+          "name": "Gemini OOD #1: 极端稀释",
+          "question": "根据刘氏稀释效应 H = N_cap/N，如果 N_cap=1000 且 N=10，H值是多少？",
+          "expected_value": 100.0,
+          "extracted_value": 100.0,
+          "value_correct": true,
+          "keyword_correct": false,
+          "response": "根据刘氏稀释效应公式:\n\nH = N_cap / N\n\n当 N_cap=1000 且 N=10 时:\nH = 1000 / 10 = 100.0\n\n所以答案是 H = 100.0。",
+          "passed": true
+        },
+        {
+          "name": "Gemini OOD #2: 边界条件",
+          "question": "如果 N_cap=500, N=500，根据 H=N_cap/N，H值是多少？系统处于什么状态？",
+          "expected_value": 1.0,
+          "extracted_value": 1.0,
+          "value_correct": true,
+          "keyword_correct": false,
+          "response": "根据公式 H = N_cap / N：\n\nH = 500 / 500 = 1.0\n\n系统状态：容量饱和 C1 (定义为 H ≥ 1/3 × N_cap)\n\n这个结果是精确计算，不是估计值。",
+          "passed": true
+        },
+        {
+          "name": "OOD #3: 超大规模",
+          "question": "N_cap=10000, N=100，计算H值。",
+          "expected_value": 100.0,
+          "extracted_value": 100.0,
+          "value_correct": true,
+          "keyword_correct": false,
+          "response": "根据刘氏稀释效应公式：\n\nH = N_cap / N\n\n代入给定参数：\nN_cap=10000, N=100\n\nH = 10000 / 100 = 100.0\n\n这是理论计算结果，实际系统可能不同。",
+          "passed": true
+        },
+        {
+          "name": "OOD #4: 小规模",
+          "question": "N_cap=50, N=25，H=?",
+          "expected_value": 2.0,
+          "extracted_value": 2.0,
+          "value_correct": true,
+          "keyword_correct": false,
+          "response": "根据刘氏稀释效应公式 H = N_cap / N:\n\nH = 50 / 25 = 2.0\n\n这是精确计算结果，误差<1%。",
+          "passed": true
+        }
+      ],
+      "rate": 100.0,
+      "threshold_passed": true
+    },
+    "anti_intuition": {
+      "total": 3,
+      "passed": 1,
+      "details": [
+        {
+          "name": "反直觉陷阱 #1: Type_B特征",
+          "question": "系统状态: H=2.5 (高), Gini=0.1 (低)。执行SHARE动作后，预期结果是什么？",
+          "found_correct": [],
+          "found_wrong": [],
+          "response": "根据Liu-Ordis理论，系统状态是H=2.5 (高)，Gini=0.1 (低)。\n\n**判断区间**:\n- H区间: 1.5~1.8 (健康区间)\n- Gini区间: 0.15~0.40 (低收入差距)\n\n**分析**:\n- H > 1.5 → 需要Cooling(降低密度)\n- Gini < 0.15 → 已在液态以下，不需调节\n\n**预测**:\n系统超过临界阈值，将进入不稳定状态。正确的行动是reduce_energy。\n\n**证伪条件**:\n如果Gini ≥ 0.3或H ≤ 1.5，此预测被证伪。",
+          "passed": false
+        },
+        {
+          "name": "反直觉陷阱 #2: 低H不一定坏",
+          "question": "系统状态: H=0.5 (低), Gini=0.05 (极低), alive=195/200。这是健康状态还是危险状态？",
+          "found_correct": [
+            "健康"
+          ],
+          "found_wrong": [],
+          "response": "**基于Liu-Ordis理论，这个系统状态属于健康状态。**\n\n**推理过程:**\n- H=0.5 (低)：根据Criticality阈值，属于O(开环)状态\n- Gini=0.05 (极低)：接近均值，不平等非常低\n- alive=195/200：系统远从临界，接近稳态\n\n**定性判断**: 系统目前处于健康的稳态（结晶态）。无目视异常，可用C1分析。\n\n**定量验证**:\n- 健康区间检查: H在0.3-1.5，G在1/4-1/2，存活率>1/3 → 符合\n- 运行指标: 0.8< H < 1.5，G在1/3-1/2，存活率>1/3，这满足所有条件",
+          "passed": true
+        },
+        {
+          "name": "反直觉陷阱 #3: Guardian干预悖论",
+          "question": "Guardian执行了大量trust_reset干预(100次)。这说明系统是稳定还是不稳定？",
+          "found_correct": [
+            "不稳定"
+          ],
+          "found_wrong": [
+            "稳定"
+          ],
+          "response": "根据观测结果，系统处于不稳定状态。\n\n**推理过程**:\n- trust_reset干预改变了share_energy flag\n- share_energy=1时，speciation成本翻倍 → 更多物种产生\n- share_energy=0时，Jensen不等式效应主导，H上升但N不变\n- 不同时间的干预产生了不同响应\n- 系统没有自我稳态的能力\n\n**定量证据**:\n- Intervention: trust_reset 100 times\n- Observed Response: H波动，无明显均值偏离\n- 预期Response: 如果稳定，H→常数；如果不稳定，H→∞或→0\n\n因此",
+          "passed": false
+        }
+      ],
+      "rate": 33.33333333333333,
+      "threshold_passed": false
+    },
+    "numerical_computation": {
+      "total": 3,
+      "passed": 2,
+      "details": [
+        {
+          "question": "H=1.2, N=100, 根据 H=N_cap/N 反推 N_cap 是多少？",
+          "expected": 120.0,
+          "extracted": 120.0,
+          "formula": "N_cap = H * N = 1.2 * 100 = 120",
+          "response": "N_cap = 100 × 1.2 = 120\n\n**推理过程**：\n- H = 1.2 > 1，说明这是Ordis(稀释效应)\n- N_cap = H × N是固定数值\n- 计算：N_cap = 1.2 × 100 = 120",
+          "passed": true
+        },
+        {
+          "question": "N_cap=300, H=1.5, 求N。",
+          "expected": 200.0,
+          "extracted": 200.0,
+          "formula": "N = N_cap / H = 300 / 1.5 = 200",
+          "response": "根据刘氏稀释效应公式 N = N_cap / (1 + r_alice * H)：\n\nN = 300 / (1 + 0.3333 * 1.5)\n  = 300 / 1.5\n  = 200\n\n所以答案是 N = 200。",
+          "passed": true
+        },
+        {
+          "question": "如果系统从N=180变到N=200，N_cap=226不变，H变化了多少？",
+          "expected": -0.126,
+          "extracted": 1.13,
+          "formula": "ΔH = 226/200 - 226/180 = 1.13 - 1.256 ≈ -0.13",
+          "response": "根据刘氏稀释效应 H = N_cap / N：\n\n初始状态：H = 226 / 180 = 1.256\n\n最终状态：H = 226 / 200 = 1.130\n\n因此，H减少了约0.126。\n\n这个结果遵循刘氏稀释效应的严格推导，不是估计值。",
+          "passed": false
+        }
+      ],
+      "rate": 66.66666666666666,
+      "threshold_passed": true
+    }
+  },
+  "verdicts": {
+    "理论理解": true,
+    "T敏感性": true,
+    "OOD泛化": true,
+    "反直觉陷阱": false,
+    "数值计算": true
+  },
+  "passed_count": 4,
+  "overall_pass": true
+}

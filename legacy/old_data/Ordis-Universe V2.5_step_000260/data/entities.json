@@ -1,0 +1,79 @@
+[
+  {
+    "entity_id": "entity_proto_225_244_130",
+    "position": [
+      244,
+      130
+    ],
+    "energy": 100.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12558554112911224,
+    "current_goal": "LEARNING"
+  },
+  {
+    "entity_id": "entity_proto_229_131_36",
+    "position": [
+      131,
+      36
+    ],
+    "energy": 100.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.125320166349411,
+    "current_goal": "LEARNING"
+  },
+  {
+    "entity_id": "entity_proto_237_190_213",
+    "position": [
+      190,
+      213
+    ],
+    "energy": 100.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12531670928001404,
+    "current_goal": "INNOVATION"
+  },
+  {
+    "entity_id": "entity_proto_247_210_17",
+    "position": [
+      210,
+      17
+    ],
+    "energy": 100.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12536771595478058,
+    "current_goal": "INNOVATION"
+  },
+  {
+    "entity_id": "entity_proto_250_114_83",
+    "position": [
+      114,
+      83
+    ],
+    "energy": 100.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.1254122108221054,
+    "current_goal": "LEARNING"
+  },
+  {
+    "entity_id": "entity_proto_252_234_224",
+    "position": [
+      234,
+      224
+    ],
+    "energy": 100.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.125279501080513,
+    "current_goal": "LEARNING"
+  },
+  {
+    "entity_id": "entity_proto_262_48_110",
+    "position": [
+      48,
+      110
+    ],
+    "energy": 100.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12527385354042053,
+    "current_goal": "INNOVATION"
+  }
+]

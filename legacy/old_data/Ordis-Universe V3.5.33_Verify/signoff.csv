@@ -1,0 +1,4 @@
+seed,steps,alive,combos,overall,time_s,combos_accepted,rej_significance,alive_min,beta_mean
+42,5000,134,56,0.7229,826.3,56,1721,129,0.63
+SUMMARY,5000,134.00,56.00,0.72,826,56,1721,129,0.63
+PASS_RATE,0/1,≥160,≥50,≥0.65,0%,,,,

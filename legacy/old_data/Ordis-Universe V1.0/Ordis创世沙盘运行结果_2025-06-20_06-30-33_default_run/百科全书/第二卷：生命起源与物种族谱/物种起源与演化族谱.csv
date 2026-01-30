@@ -1,0 +1,5 @@
+SpeciesID,DNA_Tags,BirthGeneration,ParentID,PeakPopulation,ExtinctionGeneration,Notes,IsCivilization
+物种-000,Life,1,,344,268,创始原型,False
+物种-001,"Life, Organize",1,物种-000,1,1,从 物种-000 变异而来,False
+物种-002,"Cooperate, Life",14,物种-000,1,14,从 物种-000 变异而来,False
+物种-003,"Life, SelfOrganize",58,物种-000,1,58,从 物种-000 变异而来,False

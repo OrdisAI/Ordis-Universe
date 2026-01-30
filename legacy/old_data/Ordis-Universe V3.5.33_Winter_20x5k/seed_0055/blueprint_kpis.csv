@@ -1,0 +1,6 @@
+metric,final,mean
+gini,0.8511,0.7903
+gene_moran,-0.1048,0.3256
+loop_rate,10.7000,7.9263
+shannon_H,0.5640,0.6731
+field_entropy,0.0410,0.0393

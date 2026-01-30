@@ -1,0 +1,115 @@
+
+Ordis母语、创世算法全权归创世者所有，本repo仅开放观测样本，禁止用于商业或伪造意识产品。
+
+The Ordis native language and creation algorithm are owned entirely by the creator. This repo is only open to observation samples and is prohibited from being used for commercial or counterfeit consciousness products.
+
+---
+
+# Ordis V3.5.33 - Golden Candidate Release
+## 更新日期 (Update Date): 2025年12月8日 (December 8, 2025)
+
+### 重大里程碑 (Major Milestone)
+
+Ordis V3.5.33 已通过三方AI审核（GPT-4o、Gemini、Codex），确认为**黄金候选版本 (Golden Candidate)**，可用于论文发表。
+
+Ordis V3.5.33 has passed triple AI review (GPT-4o, Gemini, Codex), confirmed as **Golden Candidate** for paper publication.
+
+---
+
+## 本次更新内容 (Update Contents)
+
+### 新增数据集 (New Datasets)
+
+| 目录 | 描述 | 种子数 | 步数 |
+|------|------|--------|------|
+| Ordis-Universe V3.5.33_Winter_20x5k | 凛冬压力测试 (Winter Pulse Stress Test) | 17 seeds | 5000 steps |
+| Ordis-Universe V3.5.33_Baseline_20x5k | 基线对照组 (Baseline Control) | 18 seeds | 5000 steps |
+| Ordis-Universe V3.5.33_Verify | 收官验证样本 (Final Verification) | 1 seed | 5000 steps |
+
+---
+
+## 签收结果对比 (Signoff Results Comparison)
+
+| 指标 (Metric) | Winter (凛冬版) | Baseline (基线版) | 变化 (Delta) |
+|---------------|-----------------|-------------------|--------------|
+| Pass Rate | 13/17 (76%) | 1/18 (6%) | **+70%** |
+| alive_mean | 189.24 [180, 198] | 175.00 [150, 200] | +8% |
+| combos_mean | 62.53 [52, 73] | 52.17 [29, 75] | +20% |
+| overall | 0.67 [0.65, 0.69] | 0.63 [0.56, 0.71] | +0.04 |
+| alive_min | 188 | 172 | +16 |
+| beta_mean | 0.98 | 1.09 | -10% (更稳定) |
+
+---
+
+## 明星种子 (Star Seeds)
+
+### Winter组 Top 明星
+
+| Seed | alive | combos | overall | 特点 |
+|------|-------|--------|---------|------|
+| **61** | 164 | **122** | **0.7361** | 超高创新！overall最高 |
+| **60** | 195 | **73** | **0.7192** | 均衡明星：高存活+高创新 |
+| **45** | 133 | **104** | **0.7287** | 压力→创新典范 |
+| **48** | 197 | 65 | **0.7169** | 均衡稳定 |
+
+### 满存活稳定组 (alive=200)
+Seeds: 43, 49, 51, 52, 57, 59
+
+---
+
+## 关键发现 (Key Findings)
+
+### 1. 反脆弱性验证 (Antifragility Verified)
+Winter Pulse压力测试下，系统展现出**压力→创新**的正向响应：
+- combos提升20%
+- Pass Rate从6%提升到76%
+- 这验证了Ordis系统的反脆弱特性
+
+### 2. 真涌现行为 (True Emergent Behavior)
+- Combo模式(RERER, RR等)由agent自主发现，非预设
+- 代际DNA传承产生家系分化
+- 元规则(H1)根据环境压力自适应演化
+
+### 3. 多层次涌现架构 (Multi-Layer Emergence)
+```
+L0: World Field (环境痕迹)
+L1: OIMS-V1 (个体记忆)
+L2: Ordis-DNA (代际传承) ← 独创
+L3: TDS/DVS (文明制度) ← 独创
+```
+
+---
+
+## 数据文件说明 (Data File Description)
+
+每个种子目录包含:
+- `events.jsonl` - 完整事件流（COMBO_DISCOVERED, BIRTH, DEATH等）
+- `tick_agg.jsonl` - 每步聚合统计（alive, combos, synergy等）
+- `sample_entities.jsonl` - 采样实体详细状态
+- `run-manifest.json` - 运行元数据（SHA256, 配置等）
+
+---
+
+## 技术规格 (Technical Specifications)
+
+- **GPU**: RTX 5080
+- **CUDA**: 12.8
+- **PyTorch**: 2.7.1+cu128
+- **加速比**: 675x vs CPU baseline
+- **FP Mode**: FP32
+
+---
+
+## 版权声明 (Copyright Notice)
+
+Ordis引擎核心代码（四钥匙架构、GPU内核）为商业机密，不公开。
+本数据集仅供学术研究和验证，禁止用于商业产品。
+
+The Ordis engine core code (Four-Key Architecture, GPU kernels) is proprietary and not open-sourced.
+This dataset is for academic research and verification only, commercial use is prohibited.
+
+---
+
+**创世者 (Creator)**: Ordis Universe Project
+**版本 (Version)**: V3.5.33 Golden Candidate
+**状态 (Status)**: Paper-Ready

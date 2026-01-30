@@ -1,0 +1,132 @@
+[
+  {
+    "entity_id": "实体_0",
+    "position": [
+      252,
+      140
+    ],
+    "energy": 70.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12521563470363617,
+    "current_goal": "CONSUME_RESOURCE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_1",
+    "position": [
+      156,
+      203
+    ],
+    "energy": 71.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12516289949417114,
+    "current_goal": "MOVE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_2",
+    "position": [
+      121,
+      199
+    ],
+    "energy": 71.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12516668438911438,
+    "current_goal": "MOVE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_3",
+    "position": [
+      61,
+      58
+    ],
+    "energy": 60.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12519727647304535,
+    "current_goal": "TRADE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 5
+  },
+  {
+    "entity_id": "实体_4",
+    "position": [
+      173,
+      240
+    ],
+    "energy": 61.30000000000008,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12522576749324799,
+    "current_goal": "FIND_RESOURCE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_5",
+    "position": [
+      142,
+      9
+    ],
+    "energy": 71.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12519298493862152,
+    "current_goal": "MOVE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_6",
+    "position": [
+      11,
+      228
+    ],
+    "energy": 71.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.125161811709404,
+    "current_goal": "CONSUME_RESOURCE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_7",
+    "position": [
+      73,
+      6
+    ],
+    "energy": 61.30000000000008,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12519706785678864,
+    "current_goal": "FIND_RESOURCE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_8",
+    "position": [
+      152,
+      158
+    ],
+    "energy": 70.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12522292137145996,
+    "current_goal": "MOVE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  },
+  {
+    "entity_id": "实体_9",
+    "position": [
+      88,
+      187
+    ],
+    "energy": 69.0,
+    "health": 100.0,
+    "consciousness_state_norm": 0.12514057755470276,
+    "current_goal": "MOVE",
+    "technology_level": 0.1,
+    "crisis_interventions_count": 1
+  }
+]

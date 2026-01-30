@@ -11,12 +11,12 @@ tags:
 - counterfactual
 - emergence
 - AI-safety
-pretty_name: "Ordis Causal Universe - Product Showcase"
+pretty_name: "Ordis 92K Advanced Causal Reasoning Dataset"
 size_categories:
-- n<1K
+- 10K<n<100K
 ---
 
-# Ordis Causal Universe Dataset — Product Showcase
+# Ordis 92K Advanced Causal Reasoning Dataset
 
 > **This is NOT another text dataset.**
 > Each entry is a complete civilization simulation with 20,000+ structured data points, verified causal graphs, and ground truth outcomes.
@@ -141,7 +141,7 @@ Every data point is deterministically reproducible. Given the same seed + config
   author={Liu, Jianyu},
   year={2026},
   publisher={HuggingFace},
-  url={https://huggingface.co/datasets/sugiken/Ordis-Causal-Universe}
+  url={https://huggingface.co/datasets/sugiken/Ordis-92K-Advanced-Causal}
 }
 ```
 

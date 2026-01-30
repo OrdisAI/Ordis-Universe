@@ -1,0 +1,34 @@
+SpeciesID,DNA_Tags,BirthGeneration,ParentID,PeakPopulation,ExtinctionGeneration,Notes,IsCivilization
+物种-000,Life,1,,5948,409,创始原型,False
+物种-001,"Life, SelfAwareness",1,物种-000,7,1,从 物种-000 变异而来,False
+物种-002,"Life, Past",1,物种-000,7,1,从 物种-000 变异而来,False
+物种-003,"Life, Transcendence",1,物种-000,6,1,从 物种-000 变异而来,False
+物种-004,"Bond, Life",1,物种-000,3,1,从 物种-000 变异而来,False
+物种-005,"Inquiry_Meaning_Of_Existence, Life",1,物种-000,3,1,从 物种-000 变异而来,False
+物种-006,"Innovation, Life",2,物种-000,2,2,从 物种-000 变异而来,False
+物种-007,"Conflict, Life",2,物种-000,3,2,从 物种-000 变异而来,False
+物种-008,"Life, Memory",2,物种-000,3,2,从 物种-000 变异而来,False
+物种-009,"Life, Support",2,物种-000,4,2,从 物种-000 变异而来,False
+物种-010,"Creativity, Life",2,物种-000,0,2,从 物种-000 变异而来,False
+物种-011,"Life, Reasoning",2,物种-000,4,2,从 物种-000 变异而来,False
+物种-012,"Future, Life",2,物种-000,2,2,从 物种-000 变异而来,False
+物种-013,"Life, Trade",2,物种-000,11,2,从 物种-000 变异而来,False
+物种-014,"Hierarchy, Life",2,物种-000,1,2,从 物种-000 变异而来,False
+物种-015,"Leadership, Life",2,物种-000,6,2,从 物种-000 变异而来,False
+物种-016,"Life, SeekOrigin",3,物种-000,2,3,从 物种-000 变异而来,False
+物种-017,"Act, Life",3,物种-000,2,3,从 物种-000 变异而来,False
+物种-018,"Life, Reproduce",3,物种-000,2,3,从 物种-000 变异而来,False
+物种-019,"Civilization, Life",3,物种-000,3,3,从 物种-000 变异而来,False
+物种-020,"Imagination, Life",3,物种-000,3,3,从 物种-000 变异而来,False
+物种-021,"Consume, Life",3,物种-000,2,3,从 物种-000 变异而来,False
+物种-022,"Life, Prediction",3,物种-000,5,3,从 物种-000 变异而来,False
+物种-023,"Adapt, Life",4,物种-000,3,4,从 物种-000 变异而来,False
+物种-024,"Communicate, Life",4,物种-000,9,4,从 物种-000 变异而来,False
+物种-025,"Life, Sense",4,物种-000,2,4,从 物种-000 变异而来,False
+物种-026,"Life, Mutate",4,物种-000,2,4,从 物种-000 变异而来,False
+物种-027,"Culture, Life",4,物种-000,4,4,从 物种-000 变异而来,False
+物种-028,"FeelEmotion, Life",4,物种-000,1,4,从 物种-000 变异而来,False
+物种-029,"Future, Life, SeekOrigin",4,物种-016,1,4,从 物种-016 变异而来,False
+物种-030,"Learning, Life",5,物种-000,1,5,从 物种-000 变异而来,False
+物种-031,"Knowledge, Life",8,物种-000,1,8,从 物种-000 变异而来,False
+物种-032,"Cooperate, Life",9,物种-000,3,9,从 物种-000 变异而来,False
