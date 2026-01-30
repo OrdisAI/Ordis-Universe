@@ -1,0 +1,2006 @@
+{
+  "meta": {
+    "seed": 20016,
+    "ncap": 226,
+    "experiment": "ablation_a2_fixed",
+    "total_ticks": 107,
+    "final_phase": "TYPE_B_IDEAL"
+  },
+  "timeline": [
+    {
+      "t": 47,
+      "state": {
+        "alive": 226,
+        "gini": 0.0,
+        "H_entropy": 0.89,
+        "share_rate": 0.0083,
+        "gather_rate": 0.8461,
+        "ratio_sg": 0.0098
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 0
+    },
+    {
+      "t": 94,
+      "state": {
+        "alive": 226,
+        "gini": 0.0,
+        "H_entropy": 0.907,
+        "share_rate": 0.0119,
+        "gather_rate": 0.8368,
+        "ratio_sg": 0.0142
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 0
+    },
+    {
+      "t": 141,
+      "state": {
+        "alive": 226,
+        "gini": 0.0,
+        "H_entropy": 0.721,
+        "share_rate": 0.8531,
+        "gather_rate": 0.1252,
+        "ratio_sg": 6.8161
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 1
+    },
+    {
+      "t": 188,
+      "state": {
+        "alive": 225,
+        "gini": 0.0,
+        "H_entropy": 0.532,
+        "share_rate": 0.8879,
+        "gather_rate": 0.1086,
+        "ratio_sg": 8.1749
+      },
+      "deaths": {
+        "total": 4,
+        "starvation": 4,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 1
+    },
+    {
+      "t": 235,
+      "state": {
+        "alive": 225,
+        "gini": 0.0,
+        "H_entropy": 0.918,
+        "share_rate": 0.718,
+        "gather_rate": 0.2745,
+        "ratio_sg": 2.6153
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 26
+    },
+    {
+      "t": 282,
+      "state": {
+        "alive": 225,
+        "gini": 0.0,
+        "H_entropy": 0.98,
+        "share_rate": 0.6907,
+        "gather_rate": 0.2976,
+        "ratio_sg": 2.3208
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 26
+    },
+    {
+      "t": 329,
+      "state": {
+        "alive": 225,
+        "gini": 0.0,
+        "H_entropy": 1.327,
+        "share_rate": 0.5912,
+        "gather_rate": 0.3457,
+        "ratio_sg": 1.7103
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 34
+    },
+    {
+      "t": 376,
+      "state": {
+        "alive": 225,
+        "gini": 0.0,
+        "H_entropy": 1.446,
+        "share_rate": 0.5135,
+        "gather_rate": 0.3996,
+        "ratio_sg": 1.285
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 34
+    },
+    {
+      "t": 423,
+      "state": {
+        "alive": 225,
+        "gini": 0.0,
+        "H_entropy": 1.522,
+        "share_rate": 0.3586,
+        "gather_rate": 0.5295,
+        "ratio_sg": 0.6772
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 52
+    },
+    {
+      "t": 470,
+      "state": {
+        "alive": 225,
+        "gini": 0.0,
+        "H_entropy": 1.401,
+        "share_rate": 0.2874,
+        "gather_rate": 0.6222,
+        "ratio_sg": 0.4619
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 52
+    },
+    {
+      "t": 517,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.222,
+        "share_rate": 0.3729,
+        "gather_rate": 0.5846,
+        "ratio_sg": 0.6378
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 52
+    },
+    {
+      "t": 564,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.207,
+        "share_rate": 0.3703,
+        "gather_rate": 0.5888,
+        "ratio_sg": 0.6289
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 52
+    },
+    {
+      "t": 611,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.459,
+        "share_rate": 0.4379,
+        "gather_rate": 0.4731,
+        "ratio_sg": 0.9256
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 55
+    },
+    {
+      "t": 658,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.12,
+        "share_rate": 0.621,
+        "gather_rate": 0.3537,
+        "ratio_sg": 1.7558
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 55
+    },
+    {
+      "t": 705,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.161,
+        "share_rate": 0.6047,
+        "gather_rate": 0.3637,
+        "ratio_sg": 1.6627
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 63
+    },
+    {
+      "t": 752,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.236,
+        "share_rate": 0.2788,
+        "gather_rate": 0.6575,
+        "ratio_sg": 0.4241
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 63
+    },
+    {
+      "t": 799,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 0.912,
+        "share_rate": 0.2033,
+        "gather_rate": 0.7726,
+        "ratio_sg": 0.2631
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 64
+    },
+    {
+      "t": 846,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.096,
+        "share_rate": 0.5263,
+        "gather_rate": 0.4613,
+        "ratio_sg": 1.1409
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 64
+    },
+    {
+      "t": 893,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.063,
+        "share_rate": 0.5786,
+        "gather_rate": 0.4117,
+        "ratio_sg": 1.4054
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 64
+    },
+    {
+      "t": 940,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.338,
+        "share_rate": 0.4872,
+        "gather_rate": 0.4575,
+        "ratio_sg": 1.0649
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 65
+    },
+    {
+      "t": 987,
+      "state": {
+        "alive": 225,
+        "gini": 0.0781,
+        "H_entropy": 1.379,
+        "share_rate": 0.407,
+        "gather_rate": 0.5247,
+        "ratio_sg": 0.7756
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 65
+    },
+    {
+      "t": 1034,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.403,
+        "share_rate": 0.3355,
+        "gather_rate": 0.581,
+        "ratio_sg": 0.5774
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 67
+    },
+    {
+      "t": 1081,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.219,
+        "share_rate": 0.163,
+        "gather_rate": 0.7442,
+        "ratio_sg": 0.2191
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 67
+    },
+    {
+      "t": 1128,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.091,
+        "share_rate": 0.2032,
+        "gather_rate": 0.736,
+        "ratio_sg": 0.2761
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 69
+    },
+    {
+      "t": 1175,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.186,
+        "share_rate": 0.2303,
+        "gather_rate": 0.6968,
+        "ratio_sg": 0.3304
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 69
+    },
+    {
+      "t": 1222,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.406,
+        "share_rate": 0.5038,
+        "gather_rate": 0.4161,
+        "ratio_sg": 1.2108
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 69
+    },
+    {
+      "t": 1269,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.115,
+        "share_rate": 0.6146,
+        "gather_rate": 0.3619,
+        "ratio_sg": 1.6984
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 69
+    },
+    {
+      "t": 1316,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.156,
+        "share_rate": 0.6009,
+        "gather_rate": 0.3688,
+        "ratio_sg": 1.6294
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 71
+    },
+    {
+      "t": 1363,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.183,
+        "share_rate": 0.5697,
+        "gather_rate": 0.3996,
+        "ratio_sg": 1.4258
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 71
+    },
+    {
+      "t": 1410,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.097,
+        "share_rate": 0.5321,
+        "gather_rate": 0.4554,
+        "ratio_sg": 1.1684
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 71
+    },
+    {
+      "t": 1457,
+      "state": {
+        "alive": 225,
+        "gini": 0.1256,
+        "H_entropy": 1.079,
+        "share_rate": 0.5585,
+        "gather_rate": 0.4308,
+        "ratio_sg": 1.2965
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 71
+    },
+    {
+      "t": 1504,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.113,
+        "share_rate": 0.5604,
+        "gather_rate": 0.4234,
+        "ratio_sg": 1.3238
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 73
+    },
+    {
+      "t": 1551,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.433,
+        "share_rate": 0.4033,
+        "gather_rate": 0.5149,
+        "ratio_sg": 0.7833
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 73
+    },
+    {
+      "t": 1598,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.41,
+        "share_rate": 0.4045,
+        "gather_rate": 0.5185,
+        "ratio_sg": 0.7802
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 73
+    },
+    {
+      "t": 1645,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.404,
+        "share_rate": 0.4081,
+        "gather_rate": 0.5156,
+        "ratio_sg": 0.7915
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 74
+    },
+    {
+      "t": 1692,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.21,
+        "share_rate": 0.2096,
+        "gather_rate": 0.7139,
+        "ratio_sg": 0.2935
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 74
+    },
+    {
+      "t": 1739,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.139,
+        "share_rate": 0.206,
+        "gather_rate": 0.7278,
+        "ratio_sg": 0.283
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 78
+    },
+    {
+      "t": 1786,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.326,
+        "share_rate": 0.2655,
+        "gather_rate": 0.6413,
+        "ratio_sg": 0.414
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 78
+    },
+    {
+      "t": 1833,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.178,
+        "share_rate": 0.1117,
+        "gather_rate": 0.7716,
+        "ratio_sg": 0.1448
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 79
+    },
+    {
+      "t": 1880,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.164,
+        "share_rate": 0.17,
+        "gather_rate": 0.7395,
+        "ratio_sg": 0.23
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 79
+    },
+    {
+      "t": 1927,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.013,
+        "share_rate": 0.6875,
+        "gather_rate": 0.2952,
+        "ratio_sg": 2.3285
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 79
+    },
+    {
+      "t": 1974,
+      "state": {
+        "alive": 225,
+        "gini": 0.1392,
+        "H_entropy": 1.123,
+        "share_rate": 0.5633,
+        "gather_rate": 0.4174,
+        "ratio_sg": 1.3495
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6939,
+      "combos": 79
+    },
+    {
+      "t": 2021,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.102,
+        "share_rate": 0.5468,
+        "gather_rate": 0.4393,
+        "ratio_sg": 1.2448
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 79
+    },
+    {
+      "t": 2068,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.083,
+        "share_rate": 0.5513,
+        "gather_rate": 0.4376,
+        "ratio_sg": 1.2598
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 79
+    },
+    {
+      "t": 2115,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.199,
+        "share_rate": 0.3195,
+        "gather_rate": 0.6372,
+        "ratio_sg": 0.5015
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 81
+    },
+    {
+      "t": 2162,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.39,
+        "share_rate": 0.4335,
+        "gather_rate": 0.4985,
+        "ratio_sg": 0.8696
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 81
+    },
+    {
+      "t": 2209,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.412,
+        "share_rate": 0.4122,
+        "gather_rate": 0.5114,
+        "ratio_sg": 0.8059
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 84
+    },
+    {
+      "t": 2256,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.404,
+        "share_rate": 0.3824,
+        "gather_rate": 0.5439,
+        "ratio_sg": 0.7032
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 84
+    },
+    {
+      "t": 2303,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.148,
+        "share_rate": 0.1969,
+        "gather_rate": 0.728,
+        "ratio_sg": 0.2704
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 84
+    },
+    {
+      "t": 2350,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.154,
+        "share_rate": 0.201,
+        "gather_rate": 0.7238,
+        "ratio_sg": 0.2778
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 84
+    },
+    {
+      "t": 2397,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.442,
+        "share_rate": 0.2954,
+        "gather_rate": 0.5837,
+        "ratio_sg": 0.5061
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 84
+    },
+    {
+      "t": 2444,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.137,
+        "share_rate": 0.6185,
+        "gather_rate": 0.3549,
+        "ratio_sg": 1.7429
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 84
+    },
+    {
+      "t": 2491,
+      "state": {
+        "alive": 225,
+        "gini": 0.1545,
+        "H_entropy": 1.15,
+        "share_rate": 0.6073,
+        "gather_rate": 0.3642,
+        "ratio_sg": 1.6673
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 84
+    },
+    {
+      "t": 2538,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.287,
+        "share_rate": 0.326,
+        "gather_rate": 0.6114,
+        "ratio_sg": 0.5332
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 85
+    },
+    {
+      "t": 2585,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 0.994,
+        "share_rate": 0.2224,
+        "gather_rate": 0.7458,
+        "ratio_sg": 0.2981
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 85
+    },
+    {
+      "t": 2632,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.121,
+        "share_rate": 0.4604,
+        "gather_rate": 0.5238,
+        "ratio_sg": 0.879
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 86
+    },
+    {
+      "t": 2679,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.078,
+        "share_rate": 0.5771,
+        "gather_rate": 0.4112,
+        "ratio_sg": 1.4034
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 86
+    },
+    {
+      "t": 2726,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.29,
+        "share_rate": 0.4941,
+        "gather_rate": 0.461,
+        "ratio_sg": 1.0719
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 89
+    },
+    {
+      "t": 2773,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.424,
+        "share_rate": 0.4097,
+        "gather_rate": 0.5138,
+        "ratio_sg": 0.7974
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 89
+    },
+    {
+      "t": 2820,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.382,
+        "share_rate": 0.4111,
+        "gather_rate": 0.52,
+        "ratio_sg": 0.7907
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 92
+    },
+    {
+      "t": 2867,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.403,
+        "share_rate": 0.3264,
+        "gather_rate": 0.5935,
+        "ratio_sg": 0.55
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 92
+    },
+    {
+      "t": 2914,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.155,
+        "share_rate": 0.1946,
+        "gather_rate": 0.7249,
+        "ratio_sg": 0.2685
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 93
+    },
+    {
+      "t": 2961,
+      "state": {
+        "alive": 225,
+        "gini": 0.2621,
+        "H_entropy": 1.143,
+        "share_rate": 0.1941,
+        "gather_rate": 0.7284,
+        "ratio_sg": 0.2665
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.7151,
+      "combos": 93
+    },
+    {
+      "t": 3008,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.513,
+        "share_rate": 0.2586,
+        "gather_rate": 0.5998,
+        "ratio_sg": 0.4311
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 94
+    },
+    {
+      "t": 3055,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 0.766,
+        "share_rate": 0.0269,
+        "gather_rate": 0.8696,
+        "ratio_sg": 0.0309
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 94
+    },
+    {
+      "t": 3102,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.261,
+        "share_rate": 0.4988,
+        "gather_rate": 0.4573,
+        "ratio_sg": 1.0907
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 95
+    },
+    {
+      "t": 3149,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.076,
+        "share_rate": 0.6502,
+        "gather_rate": 0.3288,
+        "ratio_sg": 1.9772
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 95
+    },
+    {
+      "t": 3196,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.109,
+        "share_rate": 0.5272,
+        "gather_rate": 0.459,
+        "ratio_sg": 1.1487
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 95
+    },
+    {
+      "t": 3243,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.081,
+        "share_rate": 0.5559,
+        "gather_rate": 0.4333,
+        "ratio_sg": 1.2829
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 96
+    },
+    {
+      "t": 3290,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.074,
+        "share_rate": 0.5587,
+        "gather_rate": 0.4312,
+        "ratio_sg": 1.2956
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 96
+    },
+    {
+      "t": 3337,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.054,
+        "share_rate": 0.6987,
+        "gather_rate": 0.275,
+        "ratio_sg": 2.5408
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 100
+    },
+    {
+      "t": 3384,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.416,
+        "share_rate": 0.5678,
+        "gather_rate": 0.3524,
+        "ratio_sg": 1.6114
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 100
+    },
+    {
+      "t": 3431,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.564,
+        "share_rate": 0.3177,
+        "gather_rate": 0.5566,
+        "ratio_sg": 0.5709
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 113
+    },
+    {
+      "t": 3478,
+      "state": {
+        "alive": 225,
+        "gini": 0.0798,
+        "H_entropy": 1.368,
+        "share_rate": 0.4591,
+        "gather_rate": 0.4817,
+        "ratio_sg": 0.953
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 113
+    },
+    {
+      "t": 3525,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.178,
+        "share_rate": 0.1849,
+        "gather_rate": 0.7287,
+        "ratio_sg": 0.2537
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 113
+    },
+    {
+      "t": 3572,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.227,
+        "share_rate": 0.2164,
+        "gather_rate": 0.697,
+        "ratio_sg": 0.3104
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 113
+    },
+    {
+      "t": 3619,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.461,
+        "share_rate": 0.4683,
+        "gather_rate": 0.4335,
+        "ratio_sg": 1.0803
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 115
+    },
+    {
+      "t": 3666,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.118,
+        "share_rate": 0.612,
+        "gather_rate": 0.3655,
+        "ratio_sg": 1.6746
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 115
+    },
+    {
+      "t": 3713,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.29,
+        "share_rate": 0.4972,
+        "gather_rate": 0.4556,
+        "ratio_sg": 1.0913
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 116
+    },
+    {
+      "t": 3760,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.202,
+        "share_rate": 0.2741,
+        "gather_rate": 0.6697,
+        "ratio_sg": 0.4092
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 116
+    },
+    {
+      "t": 3807,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.009,
+        "share_rate": 0.2508,
+        "gather_rate": 0.7225,
+        "ratio_sg": 0.3471
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 116
+    },
+    {
+      "t": 3854,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.078,
+        "share_rate": 0.5797,
+        "gather_rate": 0.4082,
+        "ratio_sg": 1.4201
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 116
+    },
+    {
+      "t": 3901,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.084,
+        "share_rate": 0.5718,
+        "gather_rate": 0.4158,
+        "ratio_sg": 1.3753
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 116
+    },
+    {
+      "t": 3948,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.447,
+        "share_rate": 0.4083,
+        "gather_rate": 0.5104,
+        "ratio_sg": 0.7999
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 116
+    },
+    {
+      "t": 3995,
+      "state": {
+        "alive": 225,
+        "gini": 0.1091,
+        "H_entropy": 1.445,
+        "share_rate": 0.4018,
+        "gather_rate": 0.5155,
+        "ratio_sg": 0.7793
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6793,
+      "combos": 116
+    },
+    {
+      "t": 4042,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.495,
+        "share_rate": 0.2236,
+        "gather_rate": 0.6393,
+        "ratio_sg": 0.3498
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 117
+    },
+    {
+      "t": 4089,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.276,
+        "share_rate": 0.1833,
+        "gather_rate": 0.7173,
+        "ratio_sg": 0.2555
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 117
+    },
+    {
+      "t": 4136,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.209,
+        "share_rate": 0.2036,
+        "gather_rate": 0.7117,
+        "ratio_sg": 0.2861
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 118
+    },
+    {
+      "t": 4183,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.344,
+        "share_rate": 0.2552,
+        "gather_rate": 0.6394,
+        "ratio_sg": 0.3991
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 118
+    },
+    {
+      "t": 4230,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.341,
+        "share_rate": 0.1284,
+        "gather_rate": 0.7295,
+        "ratio_sg": 0.176
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 118
+    },
+    {
+      "t": 4277,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.135,
+        "share_rate": 0.1281,
+        "gather_rate": 0.7667,
+        "ratio_sg": 0.1671
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 118
+    },
+    {
+      "t": 4324,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.029,
+        "share_rate": 0.6849,
+        "gather_rate": 0.2958,
+        "ratio_sg": 2.3154
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 120
+    },
+    {
+      "t": 4371,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 1.131,
+        "share_rate": 0.571,
+        "gather_rate": 0.4082,
+        "ratio_sg": 1.399
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 120
+    },
+    {
+      "t": 4418,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 0.955,
+        "share_rate": 0.2032,
+        "gather_rate": 0.7677,
+        "ratio_sg": 0.2647
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 122
+    },
+    {
+      "t": 4465,
+      "state": {
+        "alive": 225,
+        "gini": 0.1482,
+        "H_entropy": 0.935,
+        "share_rate": 0.2039,
+        "gather_rate": 0.7684,
+        "ratio_sg": 0.2654
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 122
+    },
+    {
+      "t": 4512,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.114,
+        "share_rate": 0.5879,
+        "gather_rate": 0.3941,
+        "ratio_sg": 1.4918
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 123
+    },
+    {
+      "t": 4559,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.04,
+        "share_rate": 0.7195,
+        "gather_rate": 0.2504,
+        "ratio_sg": 2.8738
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 123
+    },
+    {
+      "t": 4606,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.592,
+        "share_rate": 0.4092,
+        "gather_rate": 0.4717,
+        "ratio_sg": 0.8674
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 134
+    },
+    {
+      "t": 4653,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.493,
+        "share_rate": 0.37,
+        "gather_rate": 0.5308,
+        "ratio_sg": 0.6971
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 134
+    },
+    {
+      "t": 4700,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.296,
+        "share_rate": 0.37,
+        "gather_rate": 0.5716,
+        "ratio_sg": 0.6473
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 134
+    },
+    {
+      "t": 4747,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.18,
+        "share_rate": 0.192,
+        "gather_rate": 0.7248,
+        "ratio_sg": 0.2648
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 134
+    },
+    {
+      "t": 4794,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.435,
+        "share_rate": 0.2843,
+        "gather_rate": 0.5957,
+        "ratio_sg": 0.4774
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 134
+    },
+    {
+      "t": 4841,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.223,
+        "share_rate": 0.5938,
+        "gather_rate": 0.3675,
+        "ratio_sg": 1.616
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 134
+    },
+    {
+      "t": 4888,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.162,
+        "share_rate": 0.6011,
+        "gather_rate": 0.3686,
+        "ratio_sg": 1.6307
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 134
+    },
+    {
+      "t": 4935,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.293,
+        "share_rate": 0.3514,
+        "gather_rate": 0.5892,
+        "ratio_sg": 0.5965
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 135
+    },
+    {
+      "t": 4982,
+      "state": {
+        "alive": 225,
+        "gini": 0.1342,
+        "H_entropy": 1.038,
+        "share_rate": 0.2303,
+        "gather_rate": 0.7332,
+        "ratio_sg": 0.3141
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6664,
+      "combos": 135
+    },
+    {
+      "t": 4999,
+      "state": {
+        "alive": 225,
+        "gini": 0.1029,
+        "H_entropy": 0.906,
+        "share_rate": 0.1981,
+        "gather_rate": 0.778,
+        "ratio_sg": 0.2546
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6889,
+      "combos": 136
+    }
+  ],
+  "critical_points": [
+    {
+      "t": 141,
+      "type": "DVS_DISCOVERY",
+      "description": "Share rate spike - DVS combo discovered",
+      "before": 0.0119,
+      "after": 0.8531
+    },
+    {
+      "t": 1034,
+      "type": "CONSCIOUSNESS_EMERGENCE",
+      "description": "Collective consciousness emerged",
+      "before": 0.0,
+      "after": 0.6939
+    },
+    {
+      "t": 3102,
+      "type": "DVS_DISCOVERY",
+      "description": "Share rate spike - DVS combo discovered",
+      "before": 0.0269,
+      "after": 0.4988
+    }
+  ],
+  "summary": {
+    "initial_state": {
+      "t": 47,
+      "state": {
+        "alive": 226,
+        "gini": 0.0,
+        "H_entropy": 0.89,
+        "share_rate": 0.0083,
+        "gather_rate": 0.8461,
+        "ratio_sg": 0.0098
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.0,
+      "combos": 0
+    },
+    "final_state": {
+      "t": 4999,
+      "state": {
+        "alive": 225,
+        "gini": 0.1029,
+        "H_entropy": 0.906,
+        "share_rate": 0.1981,
+        "gather_rate": 0.778,
+        "ratio_sg": 0.2546
+      },
+      "deaths": {
+        "total": 0,
+        "starvation": 0,
+        "combat": 0
+      },
+      "consciousness": 0.6889,
+      "combos": 136
+    },
+    "peak_gini": 0.2621,
+    "peak_deaths": 4,
+    "total_deaths": 4
+  },
+  "_world_id": "7244b06e5093",
+  "_time_span": [
+    0,
+    0
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "V3.6.72",
+  "timestamp": "2026-01-18T12:17:04.309698",
+  "seed": 20018,
+  "config_hash": "3d7c146f1054",
+  "git_commit": "V3.6.72",
+  "module_states": {
+    "meta_rules_H1": true,
+    "communication_H4": true,
+    "emergent_combo_H2": true,
+    "oims_memory_H3": true,
+    "l0_ecosystem": true,
+    "combat_kernel": true,
+    "replay_protocol": true,
+    "crisis_governor": true,
+    "macro_system": true,
+    "macro_legacy_mode": false,
+    "oims_ucb_credit": true
+  },
+  "replay": {
+    "enabled": true,
+    "keyframe_interval": 200
+  },
+  "rng": {
+    "isolated": true,
+    "base_seed": 20018,
+    "action_seed": 20018,
+    "spawn_seed": 21018,
+    "env_seed": 22018
+  },
+  "overall_index_formula": "[REDACTED - proprietary consciousness computation formula]"
+}

@@ -1,0 +1,28 @@
+{
+  "seed": 20037,
+  "intervention": "a5 bonus half",
+  "worldline_A": {
+    "name": "baseline",
+    "experiment": "changepoint_detection_v1",
+    "final_phase": "TYPE_B_IDEAL",
+    "total_deaths": 15,
+    "peak_gini": 0.4727,
+    "final_alive": 232
+  },
+  "worldline_B": {
+    "name": "a5 bonus half",
+    "experiment": "ablation_a5_bonus_half",
+    "final_phase": "COLLAPSED",
+    "total_deaths": 23114,
+    "peak_gini": 0.4145,
+    "final_alive": 0
+  },
+  "causal_effect": {
+    "phase_changed": true,
+    "death_delta": 23099,
+    "gini_delta": -0.05820000000000003
+  },
+  "counterfactual_question": "What would have happened to seed 20037 if a5 bonus half?",
+  "counterfactual_answer": "In the baseline world, seed 20037 reached TYPE_B_IDEAL. In the a5 bonus half world, it reached COLLAPSED. The intervention caused +23099 additional deaths.",
+  "_world_id": "2e7f08de4000"
+}

@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ordis causal pair (seed=20000, n_cap=226).\nTreatment diff: share_bonus Δ={'treated': 1.0, 'control': 0.0}, guardian_enabled Δ={'treated': 1.0, 'control': 0.0}\n\nObserved outcomes:\n- Control: phase=PROSPERITY, alive_last=225.6875, H=1.210125, Gini=0.178875\n- Treated:  phase=CHAOS, alive_last=204.93457943925236, H=1.5907943925233643, Gini=0.4492317757009345\n\nTask: 用“可验证的计算步骤”解释这次干预为何导致这些变化。\n要求：\n1) 先计算两个状态的 C=√(H×N) 与 √(n_cap)，并说明差距。\n2) 用 H阈值=0.8 与 G阈值=0.333 给出两边的四象限归类。\n3) 输出一个JSON，包含：delta_N, delta_H, delta_G, quadrant_control, quadrant_treated, short_mechanism。\n"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"calc\": {\"control\": {\"N\": 225.6875, \"H\": 1.210125, \"G\": 0.178875, \"C_sqrt_HN\": 16.526042658104814, \"sqrt_Ncap\": 15.033296378372908, \"quadrant\": \"TYPE_B (High H, Low G)\"}, \"treated\": {\"N\": 204.93457943925236, \"H\": 1.5907943925233643, \"G\": 0.4492317757009345, \"C_sqrt_HN\": 18.05571321787363, \"sqrt_Ncap\": 15.033296378372908, \"quadrant\": \"ROMA (High H, High G)\"}, \"delta\": {\"N\": -20.75292056074764, \"H\": 0.3806693925233644, \"G\": 0.27035677570093447}}, \"answer\": {\"delta_N\": -20.75292056074764, \"delta_H\": 0.3806693925233644, \"delta_G\": 0.27035677570093447, \"quadrant_control\": \"TYPE_B (High H, Low G)\", \"quadrant_treated\": \"ROMA (High H, High G)\", \"short_mechanism\": \"基于观测：干预改变了资源/分享-采集结构，使得 N、H、G 的组合跨越(或逼近)阈值区间；C=√(H×N) 与 √(n_cap) 的相对偏离可作为系统“偏离稳态/约束区”的信号。\"}}"
+    }
+  ],
+  "meta": {
+    "seed": 20000,
+    "n_cap": 226,
+    "task_type": "explain_with_computation"
+  }
+}

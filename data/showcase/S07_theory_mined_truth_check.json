@@ -1,0 +1,17 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ordis pair: seed=101, n_cap=200\nControl: H=1.9583333333333333, Gini=0.4315166666666666\nTreated:  H=1.0256915887850466, Gini=0.2991532710280374\nQuadrant rule: H_thr=0.8, G_thr=0.333\n\nClaim: Control 属于 TYPE_B (High H, Low G)（同 treated）\nTask: 判断 True/False，并给出一句可验证理由（基于阈值比较）。输出JSON：{verdict, reason}"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"verdict\": false, \"reason\": \"按照阈值：H ≥ 0.8，G > 0.333，Control 实际象限是 ROMA (High H, High G)。\"}"
+    }
+  ],
+  "meta": {
+    "seed": 101,
+    "n_cap": 200,
+    "task_type": "truth_check"
+  }
+}

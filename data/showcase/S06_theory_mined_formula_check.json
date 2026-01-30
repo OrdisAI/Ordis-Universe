@@ -1,0 +1,18 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "Given: seed=101, n_cap=200, N(alive_last)=193.47663551401868, H(shannon)=1.0256915887850466, Gini=0.2991532710280374.\nTask: 计算 C=√(H×N) 与 √(n_cap)，并给出二者差值 gap=C-√(n_cap)。输出JSON：{C, sqrt_ncap, gap}。"
+    },
+    {
+      "role": "assistant",
+      "content": "{\"C\": 14.0871344734534, \"sqrt_ncap\": 14.142135623730951, \"gap\": -0.05500115027755115}"
+    }
+  ],
+  "meta": {
+    "seed": 101,
+    "n_cap": 200,
+    "task_type": "formula_check",
+    "side": "Y_treated"
+  }
+}

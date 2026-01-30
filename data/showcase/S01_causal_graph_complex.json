@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "seed": 20018,
+    "total_nodes": 16,
+    "total_edges": 5
+  },
+  "nodes": [
+    {
+      "id": "METRIC_alive",
+      "type": "METRIC",
+      "name": "alive",
+      "description": "System metric: alive"
+    },
+    {
+      "id": "METRIC_gini",
+      "type": "METRIC",
+      "name": "gini",
+      "description": "System metric: gini"
+    },
+    {
+      "id": "METRIC_H",
+      "type": "METRIC",
+      "name": "H",
+      "description": "System metric: H"
+    },
+    {
+      "id": "METRIC_share_rate",
+      "type": "METRIC",
+      "name": "share_rate",
+      "description": "System metric: share_rate"
+    },
+    {
+      "id": "METRIC_gather_rate",
+      "type": "METRIC",
+      "name": "gather_rate",
+      "description": "System metric: gather_rate"
+    },
+    {
+      "id": "METRIC_deaths",
+      "type": "METRIC",
+      "name": "deaths",
+      "description": "System metric: deaths"
+    },
+    {
+      "id": "METRIC_consciousness",
+      "type": "METRIC",
+      "name": "consciousness",
+      "description": "System metric: consciousness"
+    },
+    {
+      "id": "METRIC_combos",
+      "type": "METRIC",
+      "name": "combos",
+      "description": "System metric: combos"
+    },
+    {
+      "id": "EVENT_COMBO_ADOPTED",
+      "type": "EVENT",
+      "name": "COMBO_ADOPTED",
+      "count": 5
+    },
+    {
+      "id": "EVENT_DATA_WARNING",
+      "type": "EVENT",
+      "name": "DATA_WARNING",
+      "count": 4802
+    },
+    {
+      "id": "EVENT_CRISIS_ON",
+      "type": "EVENT",
+      "name": "CRISIS_ON",
+      "count": 1
+    },
+    {
+      "id": "EVENT_COMBO_DISCOVERED",
+      "type": "EVENT",
+      "name": "COMBO_DISCOVERED",
+      "count": 14
+    },
+    {
+      "id": "EVENT_META_RULE_APPLIED",
+      "type": "EVENT",
+      "name": "META_RULE_APPLIED",
+      "count": 50
+    },
+    {
+      "id": "EVENT_SIMULATION_CONFIG",
+      "type": "EVENT",
+      "name": "SIMULATION_CONFIG",
+      "count": 1
+    },
+    {
+      "id": "EVENT_COOP_BETRAYAL",
+      "type": "EVENT",
+      "name": "COOP_BETRAYAL",
+      "count": 4991
+    },
+    {
+      "id": "EVENT_META_RULE_VOTE",
+      "type": "EVENT",
+      "name": "META_RULE_VOTE",
+      "count": 5000
+    }
+  ],
+  "edges": [
+    {
+      "source": "METRIC_share_rate",
+      "target": "METRIC_gini",
+      "type": "CORR_LAG",
+      "kind": "lagged_correlation",
+      "strength": -0.3200641084738484,
+      "lag": 10,
+      "expected_sign": "positive",
+      "actual_sign": "negative",
+      "note": "Correlation-based, not interventional causation"
+    },
+    {
+      "source": "METRIC_share_rate",
+      "target": "METRIC_gather_rate",
+      "type": "CORR_LAG",
+      "kind": "lagged_correlation",
+      "strength": -0.4356530633196637,
+      "lag": 10,
+      "expected_sign": "negative",
+      "actual_sign": "negative",
+      "note": "Correlation-based, not interventional causation"
+    },
+    {
+      "source": "METRIC_gini",
+      "target": "METRIC_deaths",
+      "type": "CORR_LAG",
+      "kind": "lagged_correlation",
+      "strength": -0.36462686301449765,
+      "lag": 10,
+      "expected_sign": "positive",
+      "actual_sign": "negative",
+      "note": "Correlation-based, not interventional causation"
+    },
+    {
+      "source": "EVENT_COOP_BETRAYAL",
+      "target": "METRIC_gini",
+      "type": "INFLUENCES",
+      "betrayal_rate": 0.0008605101429725974,
+      "description": "Betrayal rate 0.09% affects inequality"
+    },
+    {
+      "source": "EVENT_COMBO_DISCOVERED",
+      "target": "METRIC_consciousness",
+      "type": "TRIGGERS",
+      "first_occurrence": 99,
+      "total_combos": 14,
+      "description": "DVS combo discovery triggers consciousness emergence"
+    }
+  ],
+  "graph_summary": {
+    "key_causal_chains": [
+      "share_rate → consciousness (positive, lag~100)",
+      "share_rate ↔ gather_rate (negative, r≈-0.99)",
+      "gini → deaths (positive, threshold 0.333)",
+      "COMBO_DISCOVERED → consciousness (trigger)"
+    ]
+  },
+  "_world_id": "e1c2abed6b82"
+}

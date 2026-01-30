@@ -1,0 +1,1260 @@
+{
+  "meta": {
+    "seed": 20000,
+    "ncap": 226,
+    "total_position_samples": 86
+  },
+  "agent_positions": [
+    {
+      "agent_id": 0,
+      "t": 999,
+      "x": 13,
+      "y": 50,
+      "energy": 74.0
+    },
+    {
+      "agent_id": 14,
+      "t": 999,
+      "x": 7,
+      "y": 43,
+      "energy": 12.5
+    },
+    {
+      "agent_id": 1,
+      "t": 999,
+      "x": 249,
+      "y": 91,
+      "energy": 57.5
+    },
+    {
+      "agent_id": 49,
+      "t": 999,
+      "x": 246,
+      "y": 83,
+      "energy": 59.5
+    },
+    {
+      "agent_id": 2,
+      "t": 999,
+      "x": 66,
+      "y": 43,
+      "energy": 42.0
+    },
+    {
+      "agent_id": 38,
+      "t": 999,
+      "x": 61,
+      "y": 55,
+      "energy": 29.7
+    },
+    {
+      "agent_id": 3,
+      "t": 999,
+      "x": 164,
+      "y": 151,
+      "energy": 9.0
+    },
+    {
+      "agent_id": 45,
+      "t": 999,
+      "x": 166,
+      "y": 158,
+      "energy": 14.5
+    },
+    {
+      "agent_id": 4,
+      "t": 999,
+      "x": 214,
+      "y": 74,
+      "energy": 73.0
+    },
+    {
+      "agent_id": 7,
+      "t": 999,
+      "x": 215,
+      "y": 71,
+      "energy": 20.0
+    },
+    {
+      "agent_id": 5,
+      "t": 999,
+      "x": 198,
+      "y": 212,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 51,
+      "t": 999,
+      "x": 200,
+      "y": 213,
+      "energy": 13.0
+    },
+    {
+      "agent_id": 50,
+      "t": 999,
+      "x": 8,
+      "y": 138,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 22,
+      "t": 999,
+      "x": 11,
+      "y": 142,
+      "energy": 10.0
+    },
+    {
+      "agent_id": 8,
+      "t": 999,
+      "x": 43,
+      "y": 170,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 46,
+      "t": 999,
+      "x": 38,
+      "y": 153,
+      "energy": 1.0
+    },
+    {
+      "agent_id": 9,
+      "t": 999,
+      "x": 85,
+      "y": 40,
+      "energy": 28.5
+    },
+    {
+      "agent_id": 47,
+      "t": 999,
+      "x": 87,
+      "y": 57,
+      "energy": 85.0
+    },
+    {
+      "agent_id": 10,
+      "t": 999,
+      "x": 93,
+      "y": 77,
+      "energy": 79.5
+    },
+    {
+      "agent_id": 21,
+      "t": 999,
+      "x": 96,
+      "y": 69,
+      "energy": 83.5
+    },
+    {
+      "agent_id": 11,
+      "t": 999,
+      "x": 88,
+      "y": 120,
+      "energy": 78.5
+    },
+    {
+      "agent_id": 18,
+      "t": 999,
+      "x": 90,
+      "y": 119,
+      "energy": 93.0
+    },
+    {
+      "agent_id": 12,
+      "t": 999,
+      "x": 139,
+      "y": 210,
+      "energy": 88.5
+    },
+    {
+      "agent_id": 24,
+      "t": 999,
+      "x": 139,
+      "y": 221,
+      "energy": 94.5
+    },
+    {
+      "agent_id": 13,
+      "t": 999,
+      "x": 24,
+      "y": 89,
+      "energy": 12.5
+    },
+    {
+      "agent_id": 48,
+      "t": 999,
+      "x": 15,
+      "y": 88,
+      "energy": 11.5
+    },
+    {
+      "agent_id": 15,
+      "t": 999,
+      "x": 196,
+      "y": 81,
+      "energy": 73.5
+    },
+    {
+      "agent_id": 40,
+      "t": 999,
+      "x": 190,
+      "y": 83,
+      "energy": 78.0
+    },
+    {
+      "agent_id": 16,
+      "t": 999,
+      "x": 68,
+      "y": 138,
+      "energy": 16.5
+    },
+    {
+      "agent_id": 32,
+      "t": 999,
+      "x": 73,
+      "y": 134,
+      "energy": 14.0
+    },
+    {
+      "agent_id": 17,
+      "t": 999,
+      "x": 49,
+      "y": 236,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 19,
+      "t": 999,
+      "x": 112,
+      "y": 153,
+      "energy": 14.9
+    },
+    {
+      "agent_id": 0,
+      "t": 1999,
+      "x": 13,
+      "y": 51,
+      "energy": 67.5
+    },
+    {
+      "agent_id": 3,
+      "t": 1999,
+      "x": 6,
+      "y": 57,
+      "energy": 1.5
+    },
+    {
+      "agent_id": 15,
+      "t": 1999,
+      "x": 66,
+      "y": 40,
+      "energy": 79.0
+    },
+    {
+      "agent_id": 1,
+      "t": 1999,
+      "x": 67,
+      "y": 47,
+      "energy": 80.0
+    },
+    {
+      "agent_id": 2,
+      "t": 1999,
+      "x": 171,
+      "y": 59,
+      "energy": 28.5
+    },
+    {
+      "agent_id": 16,
+      "t": 1999,
+      "x": 174,
+      "y": 43,
+      "energy": 22.0
+    },
+    {
+      "agent_id": 4,
+      "t": 1999,
+      "x": 214,
+      "y": 74,
+      "energy": 81.0
+    },
+    {
+      "agent_id": 14,
+      "t": 1999,
+      "x": 207,
+      "y": 79,
+      "energy": 49.5
+    },
+    {
+      "agent_id": 22,
+      "t": 1999,
+      "x": 5,
+      "y": 6,
+      "energy": 4.0
+    },
+    {
+      "agent_id": 7,
+      "t": 1999,
+      "x": 0,
+      "y": 6,
+      "energy": 9.5
+    },
+    {
+      "agent_id": 6,
+      "t": 1999,
+      "x": 252,
+      "y": 140,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 8,
+      "t": 1999,
+      "x": 116,
+      "y": 147,
+      "energy": 4.5
+    },
+    {
+      "agent_id": 19,
+      "t": 1999,
+      "x": 109,
+      "y": 141,
+      "energy": 11.0
+    },
+    {
+      "agent_id": 10,
+      "t": 1999,
+      "x": 137,
+      "y": 210,
+      "energy": 53.5
+    },
+    {
+      "agent_id": 11,
+      "t": 1999,
+      "x": 82,
+      "y": 252,
+      "energy": 3.5
+    },
+    {
+      "agent_id": 13,
+      "t": 1999,
+      "x": 95,
+      "y": 70,
+      "energy": 39.8
+    },
+    {
+      "agent_id": 17,
+      "t": 1999,
+      "x": 0,
+      "y": 144,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 18,
+      "t": 1999,
+      "x": 0,
+      "y": 150,
+      "energy": 24.0
+    },
+    {
+      "agent_id": 20,
+      "t": 1999,
+      "x": 224,
+      "y": 96,
+      "energy": 49.0
+    },
+    {
+      "agent_id": 0,
+      "t": 2999,
+      "x": 18,
+      "y": 56,
+      "energy": 99.5
+    },
+    {
+      "agent_id": 14,
+      "t": 2999,
+      "x": 25,
+      "y": 41,
+      "energy": 87.0
+    },
+    {
+      "agent_id": 1,
+      "t": 2999,
+      "x": 213,
+      "y": 73,
+      "energy": 53.5
+    },
+    {
+      "agent_id": 2,
+      "t": 2999,
+      "x": 221,
+      "y": 61,
+      "energy": 50.5
+    },
+    {
+      "agent_id": 4,
+      "t": 2999,
+      "x": 212,
+      "y": 81,
+      "energy": 27.9
+    },
+    {
+      "agent_id": 5,
+      "t": 2999,
+      "x": 207,
+      "y": 58,
+      "energy": 44.2
+    },
+    {
+      "agent_id": 3,
+      "t": 2999,
+      "x": 130,
+      "y": 215,
+      "energy": 31.5
+    },
+    {
+      "agent_id": 11,
+      "t": 2999,
+      "x": 127,
+      "y": 218,
+      "energy": 59.0
+    },
+    {
+      "agent_id": 12,
+      "t": 2999,
+      "x": 138,
+      "y": 226,
+      "energy": 37.0
+    },
+    {
+      "agent_id": 6,
+      "t": 2999,
+      "x": 232,
+      "y": 88,
+      "energy": 44.1
+    },
+    {
+      "agent_id": 8,
+      "t": 2999,
+      "x": 221,
+      "y": 114,
+      "energy": 35.0
+    },
+    {
+      "agent_id": 9,
+      "t": 2999,
+      "x": 208,
+      "y": 117,
+      "energy": 46.2
+    },
+    {
+      "agent_id": 13,
+      "t": 2999,
+      "x": 219,
+      "y": 102,
+      "energy": 32.1
+    },
+    {
+      "agent_id": 7,
+      "t": 2999,
+      "x": 65,
+      "y": 43,
+      "energy": 41.5
+    },
+    {
+      "agent_id": 10,
+      "t": 2999,
+      "x": 66,
+      "y": 40,
+      "energy": 4.5
+    },
+    {
+      "agent_id": 0,
+      "t": 3999,
+      "x": 14,
+      "y": 48,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 11,
+      "t": 3999,
+      "x": 17,
+      "y": 41,
+      "energy": 2.5
+    },
+    {
+      "agent_id": 1,
+      "t": 3999,
+      "x": 215,
+      "y": 70,
+      "energy": 88.0
+    },
+    {
+      "agent_id": 2,
+      "t": 3999,
+      "x": 70,
+      "y": 44,
+      "energy": 48.5
+    },
+    {
+      "agent_id": 3,
+      "t": 3999,
+      "x": 49,
+      "y": 62,
+      "energy": 56.2
+    },
+    {
+      "agent_id": 5,
+      "t": 3999,
+      "x": 65,
+      "y": 43,
+      "energy": 5.5
+    },
+    {
+      "agent_id": 10,
+      "t": 3999,
+      "x": 74,
+      "y": 49,
+      "energy": 29.5
+    },
+    {
+      "agent_id": 4,
+      "t": 3999,
+      "x": 220,
+      "y": 100,
+      "energy": 91.5
+    },
+    {
+      "agent_id": 6,
+      "t": 3999,
+      "x": 218,
+      "y": 118,
+      "energy": 78.0
+    },
+    {
+      "agent_id": 8,
+      "t": 3999,
+      "x": 234,
+      "y": 107,
+      "energy": 36.5
+    },
+    {
+      "agent_id": 7,
+      "t": 3999,
+      "x": 130,
+      "y": 226,
+      "energy": 44.5
+    },
+    {
+      "agent_id": 9,
+      "t": 3999,
+      "x": 128,
+      "y": 221,
+      "energy": 17.5
+    },
+    {
+      "agent_id": 0,
+      "t": 4999,
+      "x": 218,
+      "y": 64,
+      "energy": 12.5
+    },
+    {
+      "agent_id": 3,
+      "t": 4999,
+      "x": 212,
+      "y": 71,
+      "energy": 48.9
+    },
+    {
+      "agent_id": 1,
+      "t": 4999,
+      "x": 68,
+      "y": 46,
+      "energy": 58.1
+    },
+    {
+      "agent_id": 2,
+      "t": 4999,
+      "x": 128,
+      "y": 219,
+      "energy": 0.0
+    },
+    {
+      "agent_id": 5,
+      "t": 4999,
+      "x": 135,
+      "y": 218,
+      "energy": 49.0
+    },
+    {
+      "agent_id": 6,
+      "t": 4999,
+      "x": 128,
+      "y": 222,
+      "energy": 10.0
+    },
+    {
+      "agent_id": 7,
+      "t": 4999,
+      "x": 138,
+      "y": 215,
+      "energy": 4.0
+    },
+    {
+      "agent_id": 4,
+      "t": 4999,
+      "x": 212,
+      "y": 118,
+      "energy": 105.0
+    }
+  ],
+  "topology_evolution": [
+    {
+      "t": 47,
+      "k_eff_mean": 4.1106,
+      "reciprocal_ratio": 0.9946,
+      "clustering": null
+    },
+    {
+      "t": 94,
+      "k_eff_mean": 4.1106,
+      "reciprocal_ratio": 0.9946,
+      "clustering": null
+    },
+    {
+      "t": 141,
+      "k_eff_mean": 4.1106,
+      "reciprocal_ratio": 0.9946,
+      "clustering": null
+    },
+    {
+      "t": 188,
+      "k_eff_mean": 4.1106,
+      "reciprocal_ratio": 0.9955,
+      "clustering": null
+    },
+    {
+      "t": 235,
+      "k_eff_mean": 4.2074,
+      "reciprocal_ratio": 0.9838,
+      "clustering": null
+    },
+    {
+      "t": 282,
+      "k_eff_mean": 4.2074,
+      "reciprocal_ratio": 0.9841,
+      "clustering": null
+    },
+    {
+      "t": 329,
+      "k_eff_mean": 4.2074,
+      "reciprocal_ratio": 0.9844,
+      "clustering": null
+    },
+    {
+      "t": 376,
+      "k_eff_mean": 4.2074,
+      "reciprocal_ratio": 0.9836,
+      "clustering": null
+    },
+    {
+      "t": 423,
+      "k_eff_mean": 4.005,
+      "reciprocal_ratio": 0.966,
+      "clustering": null
+    },
+    {
+      "t": 470,
+      "k_eff_mean": 3.8861,
+      "reciprocal_ratio": 0.9593,
+      "clustering": null
+    },
+    {
+      "t": 517,
+      "k_eff_mean": 3.6683,
+      "reciprocal_ratio": 0.901,
+      "clustering": null
+    },
+    {
+      "t": 564,
+      "k_eff_mean": 3.2475,
+      "reciprocal_ratio": 0.8257,
+      "clustering": null
+    },
+    {
+      "t": 611,
+      "k_eff_mean": 3.2649,
+      "reciprocal_ratio": 0.9648,
+      "clustering": null
+    },
+    {
+      "t": 658,
+      "k_eff_mean": 2.9404,
+      "reciprocal_ratio": 0.903,
+      "clustering": null
+    },
+    {
+      "t": 705,
+      "k_eff_mean": 2.3444,
+      "reciprocal_ratio": 0.7782,
+      "clustering": null
+    },
+    {
+      "t": 752,
+      "k_eff_mean": 1.8543,
+      "reciprocal_ratio": 0.6648,
+      "clustering": null
+    },
+    {
+      "t": 799,
+      "k_eff_mean": 1.125,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 846,
+      "k_eff_mean": 1.05,
+      "reciprocal_ratio": 0.8861,
+      "clustering": null
+    },
+    {
+      "t": 893,
+      "k_eff_mean": 1.0375,
+      "reciprocal_ratio": 0.9014,
+      "clustering": null
+    },
+    {
+      "t": 940,
+      "k_eff_mean": 1.0375,
+      "reciprocal_ratio": 0.8788,
+      "clustering": null
+    },
+    {
+      "t": 987,
+      "k_eff_mean": 1.1125,
+      "reciprocal_ratio": 0.8636,
+      "clustering": null
+    },
+    {
+      "t": 1034,
+      "k_eff_mean": 1.1111,
+      "reciprocal_ratio": 0.9464,
+      "clustering": null
+    },
+    {
+      "t": 1081,
+      "k_eff_mean": 1.1667,
+      "reciprocal_ratio": 0.9508,
+      "clustering": null
+    },
+    {
+      "t": 1128,
+      "k_eff_mean": 1.1481,
+      "reciprocal_ratio": 0.9333,
+      "clustering": null
+    },
+    {
+      "t": 1175,
+      "k_eff_mean": 1.1667,
+      "reciprocal_ratio": 0.9107,
+      "clustering": null
+    },
+    {
+      "t": 1222,
+      "k_eff_mean": 1.1591,
+      "reciprocal_ratio": 0.9804,
+      "clustering": null
+    },
+    {
+      "t": 1269,
+      "k_eff_mean": 1.1591,
+      "reciprocal_ratio": 0.9804,
+      "clustering": null
+    },
+    {
+      "t": 1316,
+      "k_eff_mean": 1.1364,
+      "reciprocal_ratio": 0.96,
+      "clustering": null
+    },
+    {
+      "t": 1363,
+      "k_eff_mean": 1.1818,
+      "reciprocal_ratio": 0.9333,
+      "clustering": null
+    },
+    {
+      "t": 1410,
+      "k_eff_mean": 1.1081,
+      "reciprocal_ratio": 0.9744,
+      "clustering": null
+    },
+    {
+      "t": 1457,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.931,
+      "clustering": null
+    },
+    {
+      "t": 1504,
+      "k_eff_mean": 1.1622,
+      "reciprocal_ratio": 0.8125,
+      "clustering": null
+    },
+    {
+      "t": 1551,
+      "k_eff_mean": 1.1622,
+      "reciprocal_ratio": 0.8667,
+      "clustering": null
+    },
+    {
+      "t": 1598,
+      "k_eff_mean": 1.0811,
+      "reciprocal_ratio": 0.8846,
+      "clustering": null
+    },
+    {
+      "t": 1645,
+      "k_eff_mean": 1.2,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 1692,
+      "k_eff_mean": 1.2,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 1739,
+      "k_eff_mean": 1.2,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 1786,
+      "k_eff_mean": 1.2,
+      "reciprocal_ratio": 0.9333,
+      "clustering": null
+    },
+    {
+      "t": 1833,
+      "k_eff_mean": 1.12,
+      "reciprocal_ratio": 0.92,
+      "clustering": null
+    },
+    {
+      "t": 1880,
+      "k_eff_mean": 1.24,
+      "reciprocal_ratio": 0.9677,
+      "clustering": null
+    },
+    {
+      "t": 1927,
+      "k_eff_mean": 1.24,
+      "reciprocal_ratio": 0.9655,
+      "clustering": null
+    },
+    {
+      "t": 1974,
+      "k_eff_mean": 1.36,
+      "reciprocal_ratio": 0.9333,
+      "clustering": null
+    },
+    {
+      "t": 2021,
+      "k_eff_mean": 1.3913,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2068,
+      "k_eff_mean": 1.3478,
+      "reciprocal_ratio": 0.9677,
+      "clustering": null
+    },
+    {
+      "t": 2115,
+      "k_eff_mean": 1.4783,
+      "reciprocal_ratio": 0.9412,
+      "clustering": null
+    },
+    {
+      "t": 2162,
+      "k_eff_mean": 1.3913,
+      "reciprocal_ratio": 0.9333,
+      "clustering": null
+    },
+    {
+      "t": 2209,
+      "k_eff_mean": 1.5294,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2256,
+      "k_eff_mean": 1.5294,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2303,
+      "k_eff_mean": 1.5294,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2350,
+      "k_eff_mean": 1.5294,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2397,
+      "k_eff_mean": 1.5294,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2444,
+      "k_eff_mean": 1.5294,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2491,
+      "k_eff_mean": 1.5294,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2538,
+      "k_eff_mean": 1.5882,
+      "reciprocal_ratio": 0.963,
+      "clustering": null
+    },
+    {
+      "t": 2585,
+      "k_eff_mean": 1.6471,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2632,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 0.9,
+      "clustering": null
+    },
+    {
+      "t": 2679,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 0.9,
+      "clustering": null
+    },
+    {
+      "t": 2726,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2773,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2820,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2867,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2914,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 2961,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 3008,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 3055,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 3102,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 3149,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 3196,
+      "k_eff_mean": 1.6667,
+      "reciprocal_ratio": 0.96,
+      "clustering": null
+    },
+    {
+      "t": 3243,
+      "k_eff_mean": 1.6667,
+      "reciprocal_ratio": 0.96,
+      "clustering": null
+    },
+    {
+      "t": 3290,
+      "k_eff_mean": 1.6667,
+      "reciprocal_ratio": 0.8696,
+      "clustering": null
+    },
+    {
+      "t": 3337,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 0.75,
+      "clustering": null
+    },
+    {
+      "t": 3384,
+      "k_eff_mean": 1.3333,
+      "reciprocal_ratio": 0.75,
+      "clustering": null
+    },
+    {
+      "t": 3431,
+      "k_eff_mean": 1.1667,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 3478,
+      "k_eff_mean": 1.0833,
+      "reciprocal_ratio": 0.9231,
+      "clustering": null
+    },
+    {
+      "t": 3525,
+      "k_eff_mean": 1.0833,
+      "reciprocal_ratio": 0.9231,
+      "clustering": null
+    },
+    {
+      "t": 3572,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3619,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3666,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3713,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3760,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3807,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3854,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3901,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3948,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 3995,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 4042,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 4089,
+      "k_eff_mean": 1.0833,
+      "reciprocal_ratio": 0.9231,
+      "clustering": null
+    },
+    {
+      "t": 4136,
+      "k_eff_mean": 1.0833,
+      "reciprocal_ratio": 0.9231,
+      "clustering": null
+    },
+    {
+      "t": 4183,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 4230,
+      "k_eff_mean": 1.0,
+      "reciprocal_ratio": 0.8333,
+      "clustering": null
+    },
+    {
+      "t": 4277,
+      "k_eff_mean": 1.0833,
+      "reciprocal_ratio": 0.9231,
+      "clustering": null
+    },
+    {
+      "t": 4324,
+      "k_eff_mean": 1.0833,
+      "reciprocal_ratio": 0.9231,
+      "clustering": null
+    },
+    {
+      "t": 4371,
+      "k_eff_mean": 1.1667,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4418,
+      "k_eff_mean": 1.1667,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4465,
+      "k_eff_mean": 1.1667,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4512,
+      "k_eff_mean": 1.1667,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4559,
+      "k_eff_mean": 1.9167,
+      "reciprocal_ratio": 0.95,
+      "clustering": null
+    },
+    {
+      "t": 4606,
+      "k_eff_mean": 2.0,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4653,
+      "k_eff_mean": 2.0,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4700,
+      "k_eff_mean": 1.8182,
+      "reciprocal_ratio": 0.8571,
+      "clustering": null
+    },
+    {
+      "t": 4747,
+      "k_eff_mean": 1.6364,
+      "reciprocal_ratio": 0.7273,
+      "clustering": null
+    },
+    {
+      "t": 4794,
+      "k_eff_mean": 1.6364,
+      "reciprocal_ratio": 0.7273,
+      "clustering": null
+    },
+    {
+      "t": 4841,
+      "k_eff_mean": 1.75,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4888,
+      "k_eff_mean": 1.75,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4935,
+      "k_eff_mean": 1.75,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4982,
+      "k_eff_mean": 1.75,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    },
+    {
+      "t": 4999,
+      "k_eff_mean": 1.75,
+      "reciprocal_ratio": 1.0,
+      "clustering": null
+    }
+  ],
+  "spatial_summary": {
+    "avg_k_eff": 1.6509822429906542,
+    "description": "Spatial distribution and network topology over time"
+  },
+  "_world_id": "f5df309b1032"
+}
