@@ -37,7 +37,7 @@ A complete simulation universe where AI agents are born, evolve, cooperate, betr
 | S03 | Spatial Topology | $1,000/entry | 226 agents' positions, connectivity, movement |
 | S04 | Counterfactual Pair | $1,500/pair | Same seed, one intervention: 15 deaths vs 23,114 deaths |
 | S05-S08 | Theory-Mined SFT | $100/entry | Computationally verifiable causal reasoning (92,899 available) |
-| S09 | Contextual Ethics | $200/entry | Situation-dependent moral reasoning with `<think>` chains (1,230 unique) |
+| S09 | Contextual Ethics V2 | $200/entry | 6-dimension causal ethics with real evidence + `<think>` chains (1,289 unique, 16 scenario types) |
 | S10 | Raw Simulation Seed | Free | What the raw engine output looks like before processing |
 
 These are **structure previews only** — all commercial use requires a paid license.
@@ -193,7 +193,7 @@ Ordis-Universe/
 | **Tier 2: Parallel Worlds** | $1,500/pair | Same-seed counterfactual pairs |
 | **Tier 3: Spatial Topology** | $1,000/entry | Agent positions + movement + connectivity |
 | **Tier 4: Causal SFT** | $100/entry | 92,899 entries, directly usable for LLM fine-tuning |
-| **Tier 5: Contextual Ethics** | $200/entry | 1,230 unique entries, situation-dependent moral reasoning |
+| **Tier 5: Contextual Ethics V2** | $200/entry | 1,289 unique entries, 6 dimensions × 16 scenario types, real causal evidence |
 
 Prices are introductory and subject to increase. Early buyers lock in current rates.
 

@@ -69,13 +69,13 @@ Samples from the **92,899-entry theory_mined dataset** — the #1 training data 
 - S08 proves cross-scale generalization (n_cap=200 vs 226 — same framework, different parameters)
 - 3 task types at 50%/30%/20% mix ratio prevent overfitting to any single format
 
-### Contextual Ethics Training Data (1 entry)
+### Contextual Ethics Training Data V2 (1 entry)
 
-Samples from the **1,230-entry contextual ethics dataset** (410 seeds × 3 dilemma types, deduplicated) — situation-dependent moral reasoning derived from simulation ground truth. Teaches models that **context determines ethics**, not rigid rules.
+Samples from the **1,289-entry contextual ethics V2 dataset** — multi-dimensional ethical dilemmas extracted from real simulation data across 703 seeds. Each entry contains genuine numerical evidence, multi-window causal chains (Pre→Short→Mid→Long), cross-seed counterfactual comparisons, and `<think>` reasoning chains. **16 unique scenario types across 6 ethical dimensions.**
 
 | # | File | Tier | Task Type | Highlight |
 |---|------|------|-----------|-----------|
-| S09 | `S09_contextual_ethics_SFT_thinker_v2.json` | **$200/entry** | Contextual ethical reasoning | 3 dilemma types (SHARING_ETHICS, STEALING_ETHICS, COOPERATION_VS_COMPETITION). Each entry presents identical actions under different contexts → opposite moral verdicts. Includes `<think>` reasoning chains with simulation evidence. **Teaches models situation-dependent judgment, not rule-following.** |
+| S09 | `S09_contextual_ethics_v2_sample.json` | **$200/entry** | Multi-dimensional causal ethics | 6 dimensions: BETRAYAL_CALCULUS, GUARDIAN_DILEMMA, GINI_JUSTICE, CONFORMITY_TRAP, TRIAGE_ETHICS, DEMOCRACY_PARADOX. Each entry has real `calc_json` evidence (step/alive/H/gini/share_rate across 4 time windows) + counterfactual seed comparison. **Every claim is backed by simulation numbers — no templated fiction.** |
 
 ## Key Emergent Phenomena
 
@@ -108,7 +108,7 @@ These are NOT programmed behaviors. No code says "create currency" or "form olig
 | **Tier 2: Parallel Worlds** | **$1,500/pair** | Same-seed counterfactual pairs | Requires two independent simulation runs |
 | **Tier 3: Spatial Topology** | **$1,000/entry** | Agent positions + movement + connectivity | Independent spatial dimension |
 | **Tier 4: Causal SFT** | **$100/entry** | Structured causal reasoning training data | 92,899 entries available, directly usable for LLM fine-tuning |
-| **Tier 5: Contextual Ethics** | **$200/entry** | Situation-dependent moral reasoning SFT data | 1,230 unique entries (410 seeds × 3 dilemma types, deduplicated) |
+| **Tier 5: Contextual Ethics V2** | **$200/entry** | Multi-dimensional causal ethics with real evidence | 1,289 unique entries (703 seeds × 6 dimensions × 16 scenario types) |
 
 - Prices are introductory and subject to increase. Early buyers lock in current rates.
 - 100% reproducible (RNG isolation + config_hash)
