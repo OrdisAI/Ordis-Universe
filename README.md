@@ -10,6 +10,7 @@
 [![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
 [![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V345-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V345)
 [![Paper](https://img.shields.io/badge/Zenodo-Paper%20III-blue)](https://zenodo.org/records/18222486)
+[![Blueprint](https://img.shields.io/badge/Zenodo-Embodied%20Intelligence%20Blueprint-green)](https://zenodo.org/records/18452019)
 [![License](https://img.shields.io/badge/License-Commercial-red)](#license)
 
 </div>
@@ -140,6 +141,14 @@ DVS combo discovery at ~step 100 triggers irreversible cooperation lock-in: shar
 | **Paper III** | **Final Verdict: 22 Constraints on AI** | [10.5281/zenodo.18222486](https://zenodo.org/records/18222486) |
 | Paper II | First Principles of AI Hallucination | [10.5281/zenodo.18169555](https://zenodo.org/records/18169555) |
 | Paper I | The Verdict on AGI (Capacity Law) | [10.5281/zenodo.18113532](https://zenodo.org/records/18113532) |
+
+### Engineering Blueprint
+
+| Paper | Title | DOI |
+|-------|-------|-----|
+| **NEW** | **Embodied Intelligence Engineering Blueprint for AGI** | [10.5281/zenodo.18452019](https://zenodo.org/records/18452019) |
+
+From theory to implementation: a three-layer F-architecture (Training F → Tiger Tally F → Physical Sensor F) that maps Liu-Ordis laws onto embodied neuron control. Includes Byzantine fault tolerance, Body-as-a-Service model, and fail-safe shutdown when feedback approaches zero.
 
 ### Earlier Works
 
