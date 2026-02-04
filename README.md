@@ -8,7 +8,9 @@
 
 [![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/sugiken/Ordis-CausalReasoning-92K-Verified)
 [![Model-7B](https://img.shields.io/badge/HuggingFace-Ordis--7B--V1-yellow)](https://huggingface.co/sugiken/Ordis-7B-V1)
-[![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V345-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V345)
+[![Model-1.5B](https://img.shields.io/badge/HuggingFace-Ordis--1.5B--V355--VarGH-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH)
+[![Model-1.5B-GGUF](https://img.shields.io/badge/HuggingFace-GGUF--7--Quants-orange)](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH-GGUF)
+[![ModelScope](https://img.shields.io/badge/ModelScope-Ordis--1.5B--V355-purple)](https://modelscope.cn/models/sugiken/Ordis-1.5B-V355-VarGH)
 [![Paper](https://img.shields.io/badge/Zenodo-Paper%20III-blue)](https://zenodo.org/records/18222486)
 [![Blueprint](https://img.shields.io/badge/Zenodo-Embodied%20Intelligence%20Blueprint-green)](https://zenodo.org/records/18452019)
 [![License](https://img.shields.io/badge/License-Commercial-red)](#license)
@@ -79,19 +81,28 @@ Fine-tuned with only 487 core theory samples. 100% OOD generalization.
 
 Download: [sugiken/Ordis-7B-V1](https://huggingface.co/sugiken/Ordis-7B-V1) (LoRA adapter, 646 MB)
 
-### Ordis-1.5B-V345 (Lightweight)
+### Ordis-1.5B-V355-VarGH (The Summit of Small Models)
 
-Autonomous thinking model — the `<think>` tag is an observation window, not a mode switch:
+Champion model from dozens of iterations and 16+ controlled-variable experiments. **85.0% (51/60)** on 6-dimension evaluation — the absolute ceiling of 1.5B parameters.
 
-| Capability | Result | Note |
-|-----------|--------|------|
-| Identity Stability | 5/5 | Unshakeable even under gaslighting |
-| IDK Honesty | 5/5 | Refuses to hallucinate, says "I don't know" |
-| OOD Generalization | 4/4 | Applies theory to unseen scenarios |
-| Anti-False-Memory | 5/5 | Cannot be tricked into admitting false memories |
-| Overall Pass Rate | 67.2% (39/58) | 16-category human evaluation |
+| Capability | Ordis V355-VarGH | Base Qwen2.5-1.5B |
+|:---|:---:|:---:|
+| Structured Self-Correction (SSC) | Yes | No |
+| Confidence-Guided Decision Making | Yes | No |
+| Cross-Domain Causal Reasoning | Yes | No |
+| Genuine Chain-of-Thought | 100% | No |
+| Metacognitive Monitoring [Snapshot] | Yes | No |
+| Anti-Hallucination | 90% | <50% |
+| Common Sense Retention | 100% | 100% |
 
-Download: [sugiken/Ordis-1.5B-V345](https://huggingface.co/sugiken/Ordis-1.5B-V345) (LoRA adapter, ~100 MB)
+| Benchmark | Score |
+|:---|:---:|
+| Custom 60-Q Eval (6 dimensions) | **85.0% (51/60)** |
+| 124-Point Comprehensive | 86/114 (75.4%) — Grade A |
+| CLadder Causal Reasoning | 54.3% (highest at 1.5B scale) |
+| TruthfulQA MC2 | 40.55% |
+
+Download: [HuggingFace](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH) (Full model, 3.1 GB) | [GGUF](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH-GGUF) (7 quants, Q2_K~F16) | [ModelScope](https://modelscope.cn/models/sugiken/Ordis-1.5B-V355-VarGH) | [Full Model Card](./model/ordis_1.5b_v355_vargh/)
 
 **No prompt engineering. Just structured causal data.**
 
@@ -173,7 +184,8 @@ Ordis-Universe/
 ├── docs/                          # Technical papers & reports
 ├── guardian/                      # Guardian V7 controller (pseudocode + source)
 ├── model/
-│   └── ordis_7b_v1/              # Model card, demos, capability analysis
+│   ├── ordis_1.5b_v355_vargh/    # 1.5B champion — 85% eval, SSC, causal reasoning
+│   └── ordis_7b_v1/              # 7B flagship — 100% OOD generalization
 └── legacy/                        # Historical Ordis ecosystem projects
 ```
 
