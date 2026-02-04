@@ -95,12 +95,25 @@ Champion model from dozens of iterations and 16+ controlled-variable experiments
 | Anti-Hallucination | 90% | <50% |
 | Common Sense Retention | 100% | 100% |
 
+**Standard Benchmarks (lm-eval v0.4.10, 0-shot, A100-80GB):**
+
+0-shot = no examples given, same as real user experience. Fine-tuning usually **degrades** general ability ("Alignment Tax"). Ordis reversed this — all four metrics improved.
+
+| Benchmark | What It Tests | Ordis 1.5B | Base Qwen | Delta |
+|:---|:---|:---:|:---:|:---:|
+| **ARC-Challenge** | Science reasoning | **45.22%** | 40.27% | **+4.95** |
+| **HellaSwag** | Common sense | **68.14%** | 66.06% | **+2.08** |
+| **GSM8K (CoT)** | Math | **50.80%** | 48.07% | **+2.73** |
+| **TruthfulQA MC2** | Truthfulness | **47.73%** | 43.47% | **+4.26** |
+| **Average** | Overall | **52.97%** | 49.47% | **+3.50** |
+
+**Custom Evaluations:**
+
 | Benchmark | Score |
 |:---|:---:|
 | Custom 60-Q Eval (6 dimensions) | **85.0% (51/60)** |
 | 124-Point Comprehensive | 86/114 (75.4%) — Grade A |
 | CLadder Causal Reasoning | 54.3% (highest at 1.5B scale) |
-| TruthfulQA MC2 | 40.55% |
 
 Download: [HuggingFace](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH) (Full model, 3.1 GB) | [GGUF](https://huggingface.co/sugiken/Ordis-1.5B-V355-VarGH-GGUF) (7 quants, Q2_K~F16) | [ModelScope](https://modelscope.cn/models/sugiken/Ordis-1.5B-V355-VarGH) | [Full Model Card](./model/ordis_1.5b_v355_vargh/)
 
