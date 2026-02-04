@@ -35,15 +35,17 @@ This is not a benchmark-gaming model. Ordis is engineered for **practical deploy
 
 ### Standard Benchmarks (lm-eval v0.4.10, 0-shot, A100-80GB)
 
-| Benchmark | Ordis 1.5B VarGH | Qwen2.5-1.5B Base | Delta |
-|:---|:---:|:---:|:---:|
-| **ARC-Challenge** | **45.22%** | 40.27% | **+4.95** |
-| **HellaSwag** | **68.14%** | 66.06% | **+2.08** |
-| **GSM8K (CoT)** | **50.80%** | 48.07% | **+2.73** |
-| **TruthfulQA MC2** | **47.73%** | 43.47% | **+4.26** |
-| **Average** | **52.97%** | 49.47% | **+3.50** |
+0-shot = no examples given, same as real user experience. Fine-tuning usually **degrades** general ability ("Alignment Tax"). Ordis reversed this — all four metrics improved.
 
-> All four benchmarks improved over base model. LoRA fine-tuning showed positive transfer, not degradation.
+| Benchmark | What It Tests | Ordis 1.5B | Base Qwen | Delta |
+|:---|:---|:---:|:---:|:---:|
+| **ARC-Challenge** | Science reasoning | **45.22%** | 40.27% | **+4.95** |
+| **HellaSwag** | Common sense | **68.14%** | 66.06% | **+2.08** |
+| **GSM8K (CoT)** | Math | **50.80%** | 48.07% | **+2.73** |
+| **TruthfulQA MC2** | Truthfulness | **47.73%** | 43.47% | **+4.26** |
+| **Average** | Overall | **52.97%** | 49.47% | **+3.50** |
+
+> Training with genuine reasoning chains (`<think>` blocks) doesn't add overhead — it teaches the model to think. That ability transfers to all tasks.
 
 ### Custom Evaluations
 
